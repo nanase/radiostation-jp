@@ -1,0 +1,731 @@
+{
+  "radioStations": [
+    {
+      "name": "日本放送協会",
+      "nickname": "NHK-FM(東京)",
+      "callsign": "JOAK-FM",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.nhk.or.jp/radio/"
+        }
+      ],
+      "studio": {
+        "addressId": "tokyo_nhk"
+      },
+      "stations": [
+        {
+          "type": "primary",
+          "addressId": "tokyo_sky_tree",
+          "openDate": "2013-04-23",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 82.5e6,
+          "tpo": 7000,
+          "erp": 57000,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033407&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "reserve",
+          "addressId": "tokyo_tower",
+          "openDate": "1969-03-01",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 82.5e6,
+          "tpo": 5000,
+          "erp": 11000,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033407&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "tokyo_niijima",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 77.5e6,
+          "tpo": 100,
+          "erp": 250,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033431&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "tokyo_hachijo",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 82.9e6,
+          "tpo": 10,
+          "erp": 9.1,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033521&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "tokyo_chichijima",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 79.6e6,
+          "tpo": 3,
+          "erp": 5.6,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0003644630&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "tokyo_hahajima",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 79.6e6,
+          "tpo": 1,
+          "erp": 1.6,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0003644633&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "日本放送協会",
+      "abbreviations": [
+        "ラジオ第1",
+        "NHK第1",
+        "R1"
+      ],
+      "nickname": "NHKラジオ第1放送",
+      "callsign": "JOAK",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.nhk.or.jp/radio/"
+        }
+      ],
+      "studio": {
+        "addressId": "tokyo_nhk"
+      },
+      "stations": [
+        {
+          "type": "relay",
+          "addressId": "tokyo_chichijima",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 82.6e6,
+          "tpo": 3,
+          "erp": 4.9,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0003644628&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "tokyo_hahajima",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 82.6e6,
+          "tpo": 1,
+          "erp": 1.4,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0003644631&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "日本放送協会",
+      "abbreviations": [
+        "ラジオ第2",
+        "NHK第2",
+        "R2"
+      ],
+      "nickname": "NHKラジオ第2放送",
+      "callsign": "JOAB",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.nhk.or.jp/radio/"
+        }
+      ],
+      "studio": {
+        "addressId": "tokyo_nhk"
+      },
+      "stations": [
+        {
+          "type": "relay",
+          "addressId": "tokyo_chichijima",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 84.6e6,
+          "tpo": 3,
+          "erp": 4.9,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0003644629&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "tokyo_hahajima",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 84.6e6,
+          "tpo": 1,
+          "erp": 1.4,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0003644632&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "エフエム東京",
+      "abbreviations": [
+        "TFM"
+      ],
+      "nickname": "TOKYO FM",
+      "callsign": "JOAU-FM",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.tfm.co.jp/"
+        }
+      ],
+      "studio": {
+        "addressId": "tokyo_tokyo_fm"
+      },
+      "stations": [
+        {
+          "type": "primary",
+          "addressId": "tokyo_tower",
+          "openDate": "1970-04-26",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 80.0e6,
+          "tpo": 10000,
+          "erp": 125000,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033462&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "tokyo_niijima",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 76.7e6,
+          "tpo": 100,
+          "erp": 250,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000036225&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "tokyo_hachijo",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.3e6,
+          "tpo": 10,
+          "erp": 9.1,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000036226&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "tokyo_hinohara",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 86.6e6,
+          "tpo": 300,
+          "erp": 800,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0003859292&DD=1&styleNumber=01",
+            "https://www.tfm.co.jp/company/pdf/news_0c8f50c97d63f99d2bb4e029ea50901956667eeb51a4b.pdf"
+          ]
+        },
+        {
+          "type": "reserve",
+          "addressId": "tokyo_hinohara",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 80.0e6,
+          "tpo": 5000,
+          "erp": 15000,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033462&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "tokyo_oume",
+          "openDate": "2006-10-01",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 83.6e6,
+          "tpo": 20,
+          "erp": 32.4,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0002936858&DD=1&styleNumber=01",
+            "https://www.tfm.co.jp/company/pdf/news000090.pdf"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "tokyo_hachiohji_tv_fm",
+          "openDate": "2012-01-12",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 80.5e6,
+          "tpo": 10,
+          "erp": 20,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0003270011&DD=1&styleNumber=01",
+            "https://web.archive.org/web/20100323194124/http://www.tfm.co.jp/info/20100112_hachioji.html"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "J-WAVE",
+      "nickname": "J-WAVE",
+      "callsign": "JOAV-FM",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.j-wave.co.jp/"
+        }
+      ],
+      "studio": {
+        "addressId": "tokyo_j_wave"
+      },
+      "stations": [
+        {
+          "type": "primary",
+          "addressId": "tokyo_sky_tree",
+          "openDate": "2012-04-23",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 81.3e6,
+          "tpo": 7000,
+          "erp": 57000,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000036231&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "reserve",
+          "addressId": "tokyo_j_wave",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 81.3e6,
+          "tpo": 1000,
+          "erp": 960,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000036231&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "tokyo_minato",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 88.3e6,
+          "tpo": 100,
+          "erp": 110,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0003852236&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "InterFM897",
+      "nickname": "interfm",
+      "callsign": "JODW-FM",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.interfm.co.jp/"
+        }
+      ],
+      "studio": {
+        "addressId": "tokyo_interfm897"
+      },
+      "stations": [
+        {
+          "type": "primary",
+          "addressId": "tokyo_tower",
+          "openDate": "2012-04-23",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 89.7e6,
+          "tpo": 10000,
+          "erp": 13000,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000036896&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "kanagawa_mitsuike",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 76.5e6,
+          "tpo": 300,
+          "erp": 3700,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000037006&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TBSラジオ",
+      "abbreviations": [
+        "TBSラジオ"
+      ],
+      "nickname": "TBSラジオ",
+      "callsign": "JOKR",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.tbsradio.jp/"
+        }
+      ],
+      "studio": {
+        "addressId": "tokyo_tbsradio"
+      },
+      "stations": [
+        {
+          "type": "relay",
+          "addressId": "tokyo_sky_tree",
+          "openDate": "2015-12-07",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 90.5e6,
+          "tpo": 7000,
+          "erp": 57000,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0003785271&DD=1&styleNumber=01",
+            "http://www.tbs.co.jp/radio/jokr_fm/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "文化放送",
+      "abbreviations": [
+        "QR"
+      ],
+      "nickname": "文化放送",
+      "callsign": "JOQR",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.joqr.co.jp/"
+        }
+      ],
+      "studio": {
+        "addressId": "tokyo_joqr"
+      },
+      "stations": [
+        {
+          "type": "relay",
+          "addressId": "tokyo_sky_tree",
+          "openDate": "2015-12-07",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 91.6e6,
+          "tpo": 7000,
+          "erp": 57000,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0003785272&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ニッポン放送",
+      "nickname": "ニッポン放送",
+      "callsign": "JOLF",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.jolf.co.jp/"
+        }
+      ],
+      "studio": {
+        "addressId": "tokyo_jolf"
+      },
+      "stations": [
+        {
+          "type": "relay",
+          "addressId": "tokyo_sky_tree",
+          "openDate": "2015-12-07",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 93.5e6,
+          "tpo": 7000,
+          "erp": 57000,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0003785273&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    }
+  ],
+  "addresses": {
+    "tokyo_nhk": {
+      "name": "NHK放送センター",
+      "address": {
+        "prefecture": "東京都",
+        "city": "渋谷区",
+        "street": "神南2丁目2-1"
+      },
+      "coordinates": {
+        "lat": 35.665833,
+        "lng": 139.696111
+      }
+    },
+    "tokyo_tokyo_fm": {
+      "name": "エフエム東京",
+      "address": {
+        "prefecture": "東京都",
+        "city": "千代田区",
+        "street": "麹町1丁目7"
+      },
+      "coordinates": {
+        "lat": 35.683439,
+        "lng": 139.743239
+      }
+    },
+    "tokyo_j_wave": {
+      "name": "J-WAVE",
+      "address": {
+        "prefecture": "東京都",
+        "city": "港区",
+        "street": "六本木6丁目10-1"
+      },
+      "coordinates": {
+        "lat": 35.660400,
+        "lng": 139.729042
+      }
+    },
+    "tokyo_interfm897": {
+      "name": "InterFM897",
+      "address": {
+        "prefecture": "東京都",
+        "city": "品川区",
+        "street": "東品川1丁目3-3"
+      },
+      "coordinates": {
+        "lat": 35.621028,
+        "lng": 139.746417
+      }
+    },
+    "tokyo_tbsradio": {
+      "name": "TBSラジオ",
+      "address": {
+        "prefecture": "東京都",
+        "city": "港区",
+        "street": "赤坂5丁目3-6"
+      },
+      "coordinates": {
+        "lat": 35.671417,
+        "lng": 139.734446
+      }
+    },
+    "tokyo_joqr": {
+      "name": "文化放送",
+      "address": {
+        "prefecture": "東京都",
+        "city": "港区",
+        "street": "浜松町1丁目31"
+      },
+      "coordinates": {
+        "lat": 35.656928,
+        "lng": 139.757161
+      }
+    },
+    "tokyo_jolf": {
+      "name": "ニッポン放送",
+      "address": {
+        "prefecture": "東京都",
+        "city": "千代田区",
+        "street": "有楽町1丁目9-3"
+      },
+      "coordinates": {
+        "lat": 35.675192,
+        "lng": 139.760647
+      }
+    },
+    "tokyo_sky_tree": {
+      "name": "東京スカイツリー",
+      "address": {
+        "prefecture": "東京都",
+        "city": "墨田区",
+        "street": "押上1丁目1-1"
+      },
+      "coordinates": {
+        "lat": 35.710139,
+        "lng": 139.810833
+      }
+    },
+    "tokyo_tower": {
+      "name": "東京タワー",
+      "address": {
+        "prefecture": "東京都",
+        "city": "港区",
+        "street": "芝公園4丁目2-8"
+      },
+      "coordinates": {
+        "lat": 35.658611,
+        "lng": 139.745556
+      }
+    },
+    "tokyo_niijima": {
+      "name": "新島中継局",
+      "address": {
+        "prefecture": "東京都",
+        "city": "新島村",
+        "street": "宮塚山214"
+      },
+      "coordinates": {
+        "lat": 34.393673,
+        "lng": 139.265644
+      }
+    },
+    "tokyo_hachijo": {
+      "name": "八丈中継局",
+      "address": {
+        "prefecture": "東京都",
+        "city": "八丈町",
+        "street": "大賀郷"
+      },
+      "coordinates": {
+        "lat": 33.092447,
+        "lng": 139.812109
+      }
+    },
+    "tokyo_chichijima": {
+      "name": "父島中継局",
+      "address": {
+        "prefecture": "東京都",
+        "city": "小笠原村",
+        "street": "父島洲崎29"
+      },
+      "coordinates": {
+        "lat": 27.072316,
+        "lng": 142.195601
+      }
+    },
+    "tokyo_hahajima": {
+      "name": "母島中継局",
+      "address": {
+        "prefecture": "東京都",
+        "city": "小笠原村",
+        "street": "母島元地199-2"
+      },
+      "coordinates": {
+        "lat": 26.640733,
+        "lng": 142.158218
+      }
+    },
+    "tokyo_hinohara": {
+      "name": "檜原中継局",
+      "address": {
+        "prefecture": "東京都",
+        "city": "西多摩郡檜原村",
+        "street": "下元郷5211-1"
+      },
+      "coordinates": {
+        "lat": 35.710374,
+        "lng": 139.162871
+      }
+    },
+    "tokyo_oume": {
+      "name": "青梅中継局",
+      "address": {
+        "prefecture": "東京都",
+        "city": "青梅市",
+        "street": "長淵9丁目1417"
+      },
+      "coordinates": {
+        "lat": 35.763527,
+        "lng": 139.255143
+      }
+    },
+    "tokyo_hachiohji_tv_fm": {
+      "name": "八王子テレビ・FM中継局",
+      "address": {
+        "prefecture": "東京都",
+        "city": "八王子市",
+        "street": "暁町3丁目3-1"
+      },
+      "coordinates": {
+        "lat": 35.675163,
+        "lng": 139.336799
+      }
+    },
+    "tokyo_minato": {
+      "name": "みなとFM中継局",
+      "address": {
+        "prefecture": "東京都",
+        "city": "港区",
+        "street": "六本木6丁目10-1"
+      },
+      "coordinates": {
+        "lat": 35.660400,
+        "lng": 139.729042
+      }
+    },
+    "kanagawa_mitsuike": {
+      "name": "三ツ池送信所",
+      "address": {
+        "prefecture": "神奈川県",
+        "city": "横浜市鶴見区",
+        "street": "三ツ池公園1"
+      },
+      "coordinates": {
+        "lat": 35.524506,
+        "lng": 139.664026
+      }
+    }
+  }
+}
