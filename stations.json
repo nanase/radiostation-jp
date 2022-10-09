@@ -508,6 +508,140 @@
           ]
         }
       ]
+    },
+    {
+      "name": "日本放送協会",
+      "nickname": "NHK横浜FM",
+      "callsign": "JOGP-FM",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.nhk.or.jp/yokohama/"
+        }
+      ],
+      "studio": {
+        "addressId": "kanagawa_yokohama_nhk"
+      },
+      "stations": [
+        {
+          "type": "primary",
+          "addressId": "kanagawa_einkaizan",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 81.9e6,
+          "tpo": 5000,
+          "erp": 19000,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033471&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "kanagawa_odawara",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 83.5e6,
+          "tpo": 100,
+          "erp": 160,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033408&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "横浜エフエム放送",
+      "nickname": "Fm yokohama 84.7（FMヨコハマ）",
+      "abbreviations": [
+        "YFM"
+      ],
+      "callsign": "JOTU-FM",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.fmyokohama.co.jp/"
+        }
+      ],
+      "studio": {
+        "addressId": "kanagawa_fm_yokohama"
+      },
+      "stations": [
+        {
+          "type": "primary",
+          "addressId": "kanagawa_ohyama",
+          "openDate": "2013-06-24",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.7e6,
+          "tpo": 5000,
+          "erp": 21000,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000035533&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "kanagawa_odawara",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 80.4e6,
+          "tpo": 100,
+          "erp": 160,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000035534&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "kanagawa_isogo",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 87.0e6,
+          "tpo": 100,
+          "erp": 720,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0003852235&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "アール・エフ・ラジオ日本",
+      "nickname": "ラジオ日本",
+      "abbreviations": [
+        "RF"
+      ],
+      "callsign": "JORF",
+      "links": [
+        {
+          "type": "official",
+          "uri": "http://www.jorf.co.jp/"
+        }
+      ],
+      "studio": {
+        "addressId": "kanagawa_rf_studio"
+      },
+      "stations": [
+        {
+          "type": "relay",
+          "addressId": "kanagawa_mitsuike",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 92.4e6,
+          "tpo": 5000,
+          "erp": 41000,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0004138858&DD=1&styleNumber=01"
+          ]
+        }
+      ]
     }
   ],
   "addresses": {
@@ -713,6 +847,90 @@
       "coordinates": {
         "lat": 35.660400,
         "lng": 139.729042
+      }
+    },
+    "kanagawa_yokohama_nhk": {
+      "name": "NHK横浜放送局",
+      "address": {
+        "prefecture": "神奈川県",
+        "city": "横浜市中区",
+        "street": "山下町28"
+      },
+      "coordinates": {
+        "lat": 35.445472,
+        "lng": 139.646028
+      }
+    },
+    "kanagawa_fm_yokohama": {
+      "name": "横浜エフエム放送",
+      "address": {
+        "prefecture": "神奈川県",
+        "city": "横浜市西区",
+        "street": "みなとみらい2-2-1"
+      },
+      "coordinates": {
+        "lat": 35.454954,
+        "lng": 139.631383
+      }
+    },
+    "kanagawa_rf_studio": {
+      "name": "アール・エフ・ラジオ日本",
+      "address": {
+        "prefecture": "東京都",
+        "city": "港区",
+        "street": "麻布台2-2-1"
+      },
+      "coordinates": {
+        "lat": 35.658509,
+        "lng": 139.742202
+      }
+    },
+    "kanagawa_einkaizan": {
+      "name": "NHK円海山FM放送所",
+      "address": {
+        "prefecture": "神奈川県",
+        "city": "横浜市磯子区",
+        "street": "氷取沢町770"
+      },
+      "coordinates": {
+        "lat": 35.360259,
+        "lng": 139.595952
+      }
+    },
+    "kanagawa_isogo": {
+      "name": "磯子中継局",
+      "address": {
+        "prefecture": "神奈川県",
+        "city": "横浜市磯子区",
+        "street": "氷取沢町770"
+      },
+      "coordinates": {
+        "lat": 35.524506,
+        "lng": 139.664026
+      }
+    },
+    "kanagawa_odawara": {
+      "name": "小田原FM中継局",
+      "address": {
+        "prefecture": "神奈川県",
+        "city": "小田原市",
+        "street": "曽我谷津948"
+      },
+      "coordinates": {
+        "lat": 35.318106,
+        "lng": 139.192040
+      }
+    },
+    "kanagawa_ohyama": {
+      "name": "大山送信所",
+      "address": {
+        "prefecture": "神奈川県",
+        "city": "秦野市",
+        "street": "丹沢寺山字東迎谷26-3"
+      },
+      "coordinates": {
+        "lat": 35.441460,
+        "lng": 139.230784
       }
     },
     "kanagawa_mitsuike": {
