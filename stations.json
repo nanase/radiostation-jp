@@ -2,6 +2,168 @@
   "radioStations": [
     {
       "name": "日本放送協会",
+      "nickname": "NHK-FM(千葉)",
+      "callsign": "JOMP-FM",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.nhk.or.jp/chiba/"
+        }
+      ],
+      "studio": {
+        "addressId": "chiba_nhk"
+      },
+      "stations": [
+        {
+          "type": "primary",
+          "addressId": "chiba_miyama",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 80.7e6,
+          "tpo": 5000,
+          "erp": 25000,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033525&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "chiba_tateyama",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 79.0e6,
+          "tpo": 10,
+          "erp": 17.5,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033597&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "chiba_minamiboso_shirahama",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 82.9e6,
+          "tpo": 1,
+          "erp": 1.6,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033579&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "chiba_katsuura",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 83.7e6,
+          "tpo": 100,
+          "erp": 300,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033411&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "chiba_choshi",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 83.9e6,
+          "tpo": 30,
+          "erp": 74,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033410&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ベイエフエム",
+      "nickname": "bayfm",
+      "callsign": "JOGV-FM",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.bayfm.co.jp/"
+        }
+      ],
+      "studio": {
+        "addressId": "chiba_bayfm"
+      },
+      "stations": [
+        {
+          "type": "primary",
+          "addressId": "chiba_miyama",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 78.0e6,
+          "tpo": 5000,
+          "erp": 23000,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000036256&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "chiba_choshi",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 79.3e6,
+          "tpo": 30,
+          "erp": 74,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000036257&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "chiba_katsuura",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 87.4e6,
+          "tpo": 100,
+          "erp": 300,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000036258&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "chiba_tateyama",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 77.7e6,
+          "tpo": 10,
+          "erp": 18.5,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000036259&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "chiba_minamiboso_shirahama",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 79.7e6,
+          "tpo": 1,
+          "erp": 1.6,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000036260&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "日本放送協会",
       "nickname": "NHK-FM(東京)",
       "callsign": "JOAK-FM",
       "links": [
@@ -645,6 +807,90 @@
     }
   ],
   "addresses": {
+    "chiba_nhk": {
+      "name": "NHK千葉放送局",
+      "address": {
+        "prefecture": "千葉県",
+        "city": "千葉市中央区",
+        "street": "千葉港5-1"
+      },
+      "coordinates": {
+        "lat": 35.605556,
+        "lng": 140.106389
+      }
+    },
+    "chiba_bayfm": {
+      "name": "ベイエフエム",
+      "address": {
+        "prefecture": "千葉県",
+        "city": "千葉市美浜区",
+        "street": "中瀬2丁目6-1"
+      },
+      "coordinates": {
+        "lat": 35.648056,
+        "lng": 140.038256
+      }
+    },
+    "chiba_miyama": {
+      "name": "船橋三山送信所",
+      "address": {
+        "prefecture": "千葉県",
+        "city": "船橋市",
+        "street": "三山2丁目21-9"
+      },
+      "coordinates": {
+        "lat": 35.697267,
+        "lng": 140.046060
+      }
+    },
+    "chiba_choshi": {
+      "name": "銚子中継局",
+      "address": {
+        "prefecture": "千葉県",
+        "city": "銚子市",
+        "street": "松岸見晴台2066"
+      },
+      "coordinates": {
+        "lat": 35.736036,
+        "lng": 140.788677
+      }
+    },
+    "chiba_katsuura": {
+      "name": "勝浦FM中継放送所",
+      "address": {
+        "prefecture": "千葉県",
+        "city": "勝浦市",
+        "street": "大沢700-2"
+      },
+      "coordinates": {
+        "lat": 35.122738,
+        "lng": 140.214447
+      }
+    },
+    "chiba_tateyama": {
+      "name": "館山中継局",
+      "address": {
+        "prefecture": "千葉県",
+        "city": "館山市",
+        "street": "上真倉354-6"
+      },
+      "coordinates": {
+        "lat": 34.965006,
+        "lng": 139.852381
+      }
+    },
+    "chiba_minamiboso_shirahama": {
+      "name": "白浜中継局",
+      "address": {
+        "prefecture": "千葉県",
+        "city": "南房総市",
+        "street": "白浜町滝口5622"
+      },
+      "coordinates": {
+        "lat": 34.910735,
+        "lng": 139.875984
+      }
+    },
     "tokyo_nhk": {
       "name": "NHK放送センター",
       "address": {
