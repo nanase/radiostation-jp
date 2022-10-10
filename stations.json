@@ -2,6 +2,90 @@
   "radioStations": [
     {
       "name": "日本放送協会",
+      "nickname": "NHK-FM(さいたま)",
+      "callsign": "JOLP-FM",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.nhk.or.jp/saitama/"
+        }
+      ],
+      "studio": {
+        "addressId": "saitama_nhk"
+      },
+      "stations": [
+        {
+          "type": "primary",
+          "addressId": "saitama_hiranohara",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 85.1e6,
+          "tpo": 5000,
+          "erp": 41000,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033507&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "saitama_chichibu",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 83.5e6,
+          "tpo": 50,
+          "erp": 59,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033409&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "エフエムナックファイブ",
+      "nickname": "NACK5",
+      "callsign": "JODV-FM",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.nack5.co.jp/"
+        }
+      ],
+      "studio": {
+        "addressId": "saitama_nack5"
+      },
+      "stations": [
+        {
+          "type": "primary",
+          "addressId": "saitama_iimoritoge",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 79.5e6,
+          "tpo": 5000,
+          "erp": 37000,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000036232&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "saitama_chichibu",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 77.5e6,
+          "tpo": 50,
+          "erp": 59,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000036893&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "日本放送協会",
       "nickname": "NHK-FM(千葉)",
       "callsign": "JOMP-FM",
       "links": [
@@ -807,6 +891,66 @@
     }
   ],
   "addresses": {
+    "saitama_nhk": {
+      "name": "NHKさいたま放送局",
+      "address": {
+        "prefecture": "埼玉県",
+        "city": "さいたま市浦和区",
+        "street": "常盤6丁目1-21"
+      },
+      "coordinates": {
+        "lat": 35.862500,
+        "lng": 139.646417
+      }
+    },
+    "saitama_nack5": {
+      "name": "NHKさいたま放送局",
+      "address": {
+        "prefecture": "埼玉県",
+        "city": "さいたま市大宮区",
+        "street": "錦町682-2"
+      },
+      "coordinates": {
+        "lat": 35.908111,
+        "lng": 139.621639
+      }
+    },
+    "saitama_hiranohara": {
+      "name": "平野原送信所",
+      "address": {
+        "prefecture": "埼玉県",
+        "city": "さいたま市桜区",
+        "street": "道場5丁目3-15"
+      },
+      "coordinates": {
+        "lat": 35.852694,
+        "lng": 139.615083
+      }
+    },
+    "saitama_chichibu": {
+      "name": "秩父中継局",
+      "address": {
+        "prefecture": "埼玉県",
+        "city": "秩父郡皆野町",
+        "street": "皆野"
+      },
+      "coordinates": {
+        "lat": 36.057464,
+        "lng": 139.112702
+      }
+    },
+    "saitama_iimoritoge": {
+      "name": "NACK5飯盛峠送信所",
+      "address": {
+        "prefecture": "埼玉県",
+        "city": "比企郡ときがわ町",
+        "street": "椚平字飯盛823"
+      },
+      "coordinates": {
+        "lat": 35.958601,
+        "lng": 139.210207
+      }
+    },
     "chiba_nhk": {
       "name": "NHK千葉放送局",
       "address": {
