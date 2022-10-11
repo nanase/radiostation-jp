@@ -2,6 +2,271 @@
   "radioStations": [
     {
       "name": "日本放送協会",
+      "nickname": "NHK-FM(宇都宮)",
+      "callsign": "JOBP-FM",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.nhk.or.jp/utsunomiya/"
+        }
+      ],
+      "studio": {
+        "addressId": "tochigi_nhk"
+      },
+      "stations": [
+        {
+          "type": "primary",
+          "addressId": "tochigi_hagurosan",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 80.3e6,
+          "tpo": 1000,
+          "erp": 3900,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033457&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "tochigi_ashikaga",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 83.7e6,
+          "tpo": 30,
+          "erp": 83,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033540&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "tochigi_kuzuu",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 82.9e6,
+          "tpo": 10,
+          "erp": 11.5,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033557&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "tochigi_imaichi",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.0e6,
+          "tpo": 3,
+          "erp": 9.1,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000034194&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "tochigi_shiobara",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.9e6,
+          "tpo": 1,
+          "erp": 1.6,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033661&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "tochigi_ashio",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 86.5e6,
+          "tpo": 1,
+          "erp": 1.65,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033814&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "栃木放送",
+      "nickname": "栃木放送",
+      "callsign": "JOXF",
+      "links": [
+        {
+          "type": "official",
+          "uri": "http://www.crt-radio.co.jp/"
+        }
+      ],
+      "studio": {
+        "addressId": "tochigi_tochigi_broadcasting"
+      },
+      "stations": [
+        {
+          "type": "primary",
+          "addressId": "tochigi_hagurosan",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 94.1e6,
+          "tpo": 1000,
+          "erp": 2700,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0004042512&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "tochigi_ashikaga_crt",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 91.1e6,
+          "tpo": 20,
+          "erp": 40,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0004059646&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "tochigi_kuzuu",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 93.4e6,
+          "tpo": 10,
+          "erp": 21,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0004059647&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "tochigi_imaichi",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 93.4e6,
+          "tpo": 3,
+          "erp": 9.1,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0004059648&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "tochigi_shiobara",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 93.4e6,
+          "tpo": 1,
+          "erp": 1.6,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0004059649&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "エフエム栃木",
+      "nickname": "RADIO BERRY",
+      "abbreviations": [
+        "RADIO BERRY",
+        "RB"
+      ],
+      "callsign": "JOSV-FM",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.berry.co.jp/"
+        }
+      ],
+      "studio": {
+        "addressId": "tochigi_radio_berry"
+      },
+      "stations": [
+        {
+          "type": "primary",
+          "addressId": "tochigi_hagurosan",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 76.4e6,
+          "tpo": 1000,
+          "erp": 3900,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000036647&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "tochigi_ashikaga",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 78.3e6,
+          "tpo": 30,
+          "erp": 83,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000036702&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "tochigi_kuzuu",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.4e6,
+          "tpo": 10,
+          "erp": 11.5,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000036703&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "tochigi_imaichi",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 79.1e6,
+          "tpo": 3,
+          "erp": 9.1,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000036704&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "tochigi_shiobara",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 78.5e6,
+          "tpo": 1,
+          "erp": 1.6,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000036705&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "日本放送協会",
       "nickname": "NHK-FM(前橋)",
       "callsign": "JOTP-FM",
       "links": [
@@ -1134,6 +1399,126 @@
     }
   ],
   "addresses": {
+    "tochigi_nhk": {
+      "name": "NHK宇都宮放送局",
+      "address": {
+        "prefecture": "栃木県",
+        "city": "宇都宮市",
+        "street": "中央3丁目1-2"
+      },
+      "coordinates": {
+        "lat": 36.556944,
+        "lng": 139.884389
+      }
+    },
+    "tochigi_tochigi_broadcasting": {
+      "name": "栃木放送",
+      "address": {
+        "prefecture": "栃木県",
+        "city": "宇都宮市",
+        "street": "昭和2丁目2-5"
+      },
+      "coordinates": {
+        "lat": 36.567170,
+        "lng": 139.882450
+      }
+    },
+    "tochigi_radio_berry": {
+      "name": "エフエム栃木",
+      "address": {
+        "prefecture": "栃木県",
+        "city": "宇都宮市",
+        "street": "中央1丁目2-1"
+      },
+      "coordinates": {
+        "lat": 36.559175,
+        "lng": 139.883239
+      }
+    },
+    "tochigi_hagurosan": {
+      "name": "羽黒山送信所",
+      "address": {
+        "prefecture": "栃木県",
+        "city": "宇都宮市",
+        "street": "今里町"
+      },
+      "coordinates": {
+        "lat": 36.709659,
+        "lng": 139.879168
+      }
+    },
+    "tochigi_ashikaga": {
+      "name": "足利FM中継局",
+      "address": {
+        "prefecture": "栃木県",
+        "city": "足利市",
+        "street": "迫間町"
+      },
+      "coordinates": {
+        "lat": 36.323229,
+        "lng": 139.512976
+      }
+    },
+    "tochigi_ashikaga_crt": {
+      "name": "栃木放送足利FM中継局",
+      "address": {
+        "prefecture": "栃木県",
+        "city": "足利市",
+        "street": "西宮町"
+      },
+      "coordinates": {
+        "lat": 36.344614,
+        "lng": 139.445809
+      }
+    },
+    "tochigi_kuzuu": {
+      "name": "葛生中継局",
+      "address": {
+        "prefecture": "栃木県",
+        "city": "栃木市",
+        "street": "柏倉町"
+      },
+      "coordinates": {
+        "lat": 36.402118,
+        "lng": 139.638419
+      }
+    },
+    "tochigi_imaichi": {
+      "name": "今市中継局",
+      "address": {
+        "prefecture": "栃木県",
+        "city": "日光市",
+        "street": "倉ケ崎"
+      },
+      "coordinates": {
+        "lat": 36.749763,
+        "lng": 139.693631
+      }
+    },
+    "tochigi_shiobara": {
+      "name": "塩原中継局",
+      "address": {
+        "prefecture": "栃木県",
+        "city": "那須塩原市",
+        "street": "塩原"
+      },
+      "coordinates": {
+        "lat": 36.968738,
+        "lng": 139.827891
+      }
+    },
+    "tochigi_ashio": {
+      "name": "足尾FM中継局",
+      "address": {
+        "prefecture": "栃木県",
+        "city": "日光市",
+        "street": "足尾"
+      },
+      "coordinates": {
+        "lat": 36.643776,
+        "lng": 139.456521
+      }
+    },
     "gunma_nhk": {
       "name": "NHK前橋放送局",
       "address": {
