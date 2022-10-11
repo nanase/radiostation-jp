@@ -2,6 +2,249 @@
   "radioStations": [
     {
       "name": "日本放送協会",
+      "nickname": "NHK-FM(前橋)",
+      "callsign": "JOTP-FM",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.nhk.or.jp/maebashi/"
+        }
+      ],
+      "studio": {
+        "addressId": "gunma_nhk"
+      },
+      "stations": [
+        {
+          "type": "primary",
+          "addressId": "gunma_ushibuseyama",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 81.6e6,
+          "tpo": 1000,
+          "erp": 5500,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033454&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "gunma_haruna",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 80.5e6,
+          "tpo": 50,
+          "erp": 150,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033540&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "gunma_numata",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 83.4e6,
+          "tpo": 10,
+          "erp": 23,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033541&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "gunma_tone",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 83.8e6,
+          "tpo": 10,
+          "erp": 16,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033615&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "gunma_kusatsu",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.2e6,
+          "tpo": 10,
+          "erp": 22,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033613&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "gunma_sanbagawa",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 89.0e6,
+          "tpo": 3,
+          "erp": 3.3,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0001471049&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "gunma_manba",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 85.9e6,
+          "tpo": 3,
+          "erp": 4.8,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0002624861&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "gunma_naganohara",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 83.1e6,
+          "tpo": 1,
+          "erp": 1.6,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033681&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "エフエム群馬",
+      "abbreviations": [
+        "FMG"
+      ],
+      "nickname": "FMぐんま",
+      "callsign": "JORU-FM",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.fmgunma.com/fmg863/"
+        }
+      ],
+      "studio": {
+        "addressId": "gunma_fmgunma"
+      },
+      "stations": [
+        {
+          "type": "primary",
+          "addressId": "gunma_ushibuseyama",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 86.3e6,
+          "tpo": 100,
+          "erp": 86,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000034895&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "gunma_haruna",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 82.2e6,
+          "tpo": 50,
+          "erp": 160,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000034896&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "gunma_numata",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 77.8e6,
+          "tpo": 10,
+          "erp": 23,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000034897&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "gunma_tone",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 79.4e6,
+          "tpo": 10,
+          "erp": 16,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000034898&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "gunma_kusatsu",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 76.7e6,
+          "tpo": 10,
+          "erp": 21,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000034899&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "gunma_sanbagawa",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 87.1e6,
+          "tpo": 3,
+          "erp": 3.3,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0001471051&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "gunma_manba",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 88.0e6,
+          "tpo": 3,
+          "erp": 4.8,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0002624862&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "gunma_naganohara",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 82.0e6,
+          "tpo": 1,
+          "erp": 1.6,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000034900&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "日本放送協会",
       "nickname": "NHK-FM(さいたま)",
       "callsign": "JOLP-FM",
       "links": [
@@ -891,6 +1134,125 @@
     }
   ],
   "addresses": {
+    "gunma_nhk": {
+      "name": "NHK前橋放送局",
+      "address": {
+        "prefecture": "群馬県",
+        "city": "前橋市",
+        "street": "元総社町189"
+      },
+      "coordinates": {
+        "lat": 36.384852,
+        "lng": 139.045497
+      }
+    },
+    "gunma_fmgunma": {
+      "name": "エフエム群馬",
+      "address": {
+        "prefecture": "群馬県",
+        "city": "前橋市",
+        "street": "千代田町2丁目3-1"
+      },
+      "coordinates": {
+        "lat": 36.393363,
+        "lng": 139.067282
+      }
+    },
+    "gunma_ushibuseyama": {
+      "name": "前橋FM送信所",
+      "address": {
+        "prefecture": "群馬県",
+        "city": "高崎市",
+        "street": "吉井町多比良4458"
+      },
+      "coordinates": {
+        "lat": 36.220501,
+        "lng": 138.987319
+      }
+    },
+    "gunma_haruna": {
+      "name": "榛名中継局",
+      "address": {
+        "prefecture": "群馬県",
+        "city": "渋川市",
+        "street": "伊香保町伊香保"
+      },
+      "coordinates": {
+        "lat": 36.481956,
+        "lng": 138.905742
+      }
+    },
+    "gunma_numata": {
+      "name": "沼田中継局",
+      "address": {
+        "prefecture": "群馬県",
+        "city": "利根郡みなかみ町",
+        "street": "相俣"
+      },
+      "coordinates": {
+        "lat": 36.730405,
+        "lng": 138.933278
+      }
+    },
+    "gunma_tone": {
+      "name": "利根中継局",
+      "address": {
+        "prefecture": "群馬県",
+        "city": "沼田市",
+        "street": "利根町追貝"
+      },
+      "coordinates": {
+        "lat": 36.702518,
+        "lng": 139.234750
+      }
+    },
+    "gunma_kusatsu": {
+      "name": "草津中継局",
+      "address": {
+        "prefecture": "群馬県",
+        "city": "吾妻郡草津町"
+      },
+      "coordinates": {
+        "lat": 36.615154,
+        "lng": 138.585079
+      }
+    },
+    "gunma_sanbagawa": {
+      "name": "三波川中継局",
+      "address": {
+        "prefecture": "群馬県",
+        "city": "藤岡市",
+        "street": "坂原"
+      },
+      "coordinates": {
+        "lat": 36.145330,
+        "lng": 138.983940
+      }
+    },
+    "gunma_manba": {
+      "name": "万場中継局",
+      "address": {
+        "prefecture": "群馬県",
+        "city": "多野郡神流町",
+        "street": "麻生"
+      },
+      "coordinates": {
+        "lat": 36.107317,
+        "lng": 138.938173
+      }
+    },
+    "gunma_naganohara": {
+      "name": "長野原中継局",
+      "address": {
+        "prefecture": "群馬県",
+        "city": "吾妻郡長野原町",
+        "street": "与喜屋"
+      },
+      "coordinates": {
+        "lat": 36.538427,
+        "lng": 138.631775
+      }
+    },
     "saitama_nhk": {
       "name": "NHKさいたま放送局",
       "address": {
