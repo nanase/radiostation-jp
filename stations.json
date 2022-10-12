@@ -2,6 +2,132 @@
   "radioStations": [
     {
       "name": "日本放送協会",
+      "nickname": "NHK-FM(水戸)",
+      "callsign": "JOEP-FM",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.nhk.or.jp/mito/"
+        }
+      ],
+      "studio": {
+        "addressId": "ibaraki_nhk"
+      },
+      "stations": [
+        {
+          "type": "primary",
+          "addressId": "ibaraki_tsubakurosan",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 83.2e6,
+          "tpo": 1000,
+          "erp": 5800,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033456&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "ibaraki_hitachi",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.2e6,
+          "tpo": 100,
+          "erp": 350,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033455&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "ibaraki_daigo",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.8e6,
+          "tpo": 10,
+          "erp": 10.5,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033550&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "ibaraki_kitaibaraki",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 82.9e6,
+          "tpo": 100,
+          "erp": 270,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033501&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "茨城放送",
+      "nickname": "LuckyFM 茨城放送",
+      "callsign": "JOYF,JOYL",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://lucky-ibaraki.com/"
+        }
+      ],
+      "studio": {
+        "addressId": "ibaraki_luckyfm"
+      },
+      "stations": [
+        {
+          "type": "primary",
+          "addressId": "ibaraki_tsubakurosan",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 94.6e6,
+          "tpo": 1000,
+          "erp": 5200,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0003847162&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "ibaraki_takasuzu",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 88.1e6,
+          "tpo": 100,
+          "erp": 525,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0003854061&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "ibaraki_hokyosan",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 88.1e6,
+          "tpo": 100,
+          "erp": 420,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0004323763&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "日本放送協会",
       "nickname": "NHK-FM(宇都宮)",
       "callsign": "JOBP-FM",
       "links": [
@@ -1399,6 +1525,102 @@
     }
   ],
   "addresses": {
+    "ibaraki_nhk": {
+      "name": "NHK水戸放送局",
+      "address": {
+        "prefecture": "茨城県",
+        "city": "水戸市",
+        "street": "大町3丁目4-4"
+      },
+      "coordinates": {
+        "lat": 36.378091,
+        "lng": 140.469040
+      }
+    },
+    "ibaraki_luckyfm": {
+      "name": "茨城放送",
+      "address": {
+        "prefecture": "茨城県",
+        "city": "水戸市",
+        "street": "千波町2084-2"
+      },
+      "coordinates": {
+        "lat": 36.349694,
+        "lng": 140.441953
+      }
+    },
+    "ibaraki_tsubakurosan": {
+      "name": "加波山送信所",
+      "address": {
+        "prefecture": "茨城県",
+        "city": "桜川市",
+        "street": "猿田"
+      },
+      "coordinates": {
+        "lat": 36.307513,
+        "lng": 140.142727
+      }
+    },
+    "ibaraki_hitachi": {
+      "name": "NHK-FM日立中継局",
+      "address": {
+        "prefecture": "茨城県",
+        "city": "日立市",
+        "street": "森山町"
+      },
+      "coordinates": {
+        "lat": 36.525943,
+        "lng": 140.600166
+      }
+    },
+    "ibaraki_takasuzu": {
+      "name": "高鈴FM補完中継局",
+      "address": {
+        "prefecture": "茨城県",
+        "city": "常陸太田市",
+        "street": "町屋町"
+      },
+      "coordinates": {
+        "lat": 36.621229,
+        "lng": 140.587348
+      }
+    },
+    "ibaraki_daigo": {
+      "name": "NHK-FM大子中継局",
+      "address": {
+        "prefecture": "茨城県",
+        "city": "久慈郡大子町",
+        "street": "南田気"
+      },
+      "coordinates": {
+        "lat": 36.755192,
+        "lng": 140.360335
+      }
+    },
+    "ibaraki_kitaibaraki": {
+      "name": "NHK-FM北茨城中継局",
+      "address": {
+        "prefecture": "茨城県",
+        "city": "北茨城市",
+        "street": "関本町"
+      },
+      "coordinates": {
+        "lat": 36.851728,
+        "lng": 140.708728
+      }
+    },
+    "ibaraki_hokyosan": {
+      "name": "宝篋山中継局",
+      "address": {
+        "prefecture": "茨城県",
+        "city": "つくば市",
+        "street": "山口"
+      },
+      "coordinates": {
+        "lat": 36.167668,
+        "lng": 140.130182
+      }
+    },
     "tochigi_nhk": {
       "name": "NHK宇都宮放送局",
       "address": {
