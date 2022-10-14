@@ -187,7 +187,7 @@
           ],
           "frequency": 84.0e6,
           "tpo": 3,
-          "erp": 9.1,
+          "erp": 9.3,
           "citations": [
             "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000034194&DD=1&styleNumber=01"
           ]
@@ -1380,7 +1380,7 @@
             "fm",
             "simulcast"
           ],
-          "frequency": 93.5e6,
+          "frequency": 93.0e6,
           "tpo": 7000,
           "erp": 57000,
           "citations": [
@@ -1577,8 +1577,8 @@
       "name": "高鈴FM補完中継局",
       "address": {
         "prefecture": "茨城県",
-        "city": "常陸太田市",
-        "street": "町屋町"
+        "city": "日立市",
+        "street": "東河内町"
       },
       "coordinates": {
         "lat": 36.621229,
@@ -1697,8 +1697,8 @@
       "name": "葛生中継局",
       "address": {
         "prefecture": "栃木県",
-        "city": "栃木市",
-        "street": "柏倉町"
+        "city": "佐野市",
+        "street": "長坂町"
       },
       "coordinates": {
         "lat": 36.402118,
@@ -1900,8 +1900,8 @@
       "name": "秩父中継局",
       "address": {
         "prefecture": "埼玉県",
-        "city": "秩父郡皆野町",
-        "street": "皆野"
+        "city": "秩父市",
+        "street": "黒谷"
       },
       "coordinates": {
         "lat": 36.057464,
@@ -2128,7 +2128,7 @@
       "name": "八丈中継局",
       "address": {
         "prefecture": "東京都",
-        "city": "八丈町",
+        "city": "八丈島八丈町",
         "street": "大賀郷"
       },
       "coordinates": {
