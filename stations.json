@@ -535,6 +535,19 @@
             "fm"
           ],
           "frequency": 86.3e6,
+          "tpo": 1000,
+          "erp": 5500,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000034895&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "reserve",
+          "addressId": "gunma_fmgunma",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 86.3e6,
           "tpo": 100,
           "erp": 86,
           "citations": [
