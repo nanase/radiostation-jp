@@ -40,12 +40,13 @@
           "attributes": {
             "type": "array",
             "title": "放送局の属性",
-            "description": "community: コミュニティ放送",
+            "description": "community: コミュニティ放送\nforeignLanguage: 外国語放送",
             "uniqueItems": true,
             "items": {
               "type": "string",
               "enum": [
-                "community"
+                "community",
+                "foreignLanguage"
               ]
             }
           },

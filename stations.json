@@ -1263,6 +1263,9 @@
       "name": "InterFM897",
       "nickname": "interfm",
       "callsign": "JODW-FM",
+      "attributes": [
+        "foreignLanguage"
+      ],
       "links": [
         {
           "type": "official",
