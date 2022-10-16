@@ -2,6 +2,469 @@
   "radioStations": [
     {
       "name": "日本放送協会",
+      "nickname": "NHK-FM(福島)",
+      "callsign": "JOFP-FM",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.nhk.or.jp/fukushima/"
+        }
+      ],
+      "studio": {
+        "addressId": "fukushima_nhk"
+      },
+      "stations": [
+        {
+          "type": "primary",
+          "addressId": "fukushima_sasamori",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 85.3e6,
+          "tpo": 1000,
+          "erp": 5500,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010845&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "primary",
+          "addressId": "fukushima_datetsukidate",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.6e6,
+          "tpo": 3,
+          "erp": 5,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010919&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "fukushima_ono",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.0e6,
+          "tpo": 3,
+          "erp": 2.9,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000011035&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "fukushima_hanawa",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 83.8e6,
+          "tpo": 10,
+          "erp": 18.5,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010920&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "fukushima_shirakawa",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.3e6,
+          "tpo": 100,
+          "erp": 100,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010864&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "fukushima_aizuwakamatsu",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 85.9e6,
+          "tpo": 250,
+          "erp": 1150,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010846&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "fukushima_yanaizu",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.9e6,
+          "tpo": 10,
+          "erp": 11,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000013156&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "fukushima_higashikaneyama",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.1e6,
+          "tpo": 10,
+          "erp": 16,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000011410&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "fukushima_nishikaneyama",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 83.3e6,
+          "tpo": 1,
+          "erp": 2.3,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000434770&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "fukushima_tajima",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 85.0e6,
+          "tpo": 10,
+          "erp": 22,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010847&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "fukushima_nango",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.5e6,
+          "tpo": 10,
+          "erp": 32,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000011468&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "fukushima_tadami",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.8e6,
+          "tpo": 1,
+          "erp": 0.91,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000011411&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "fukushima_higashitadami",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 83.7e6,
+          "tpo": 10,
+          "erp": 16,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000011213&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "fukushima_haramachi",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 83.3e6,
+          "tpo": 30,
+          "erp": 49,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000011059&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "fukushima_tomioka",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.5e6,
+          "tpo": 10,
+          "erp": 11.5,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010849&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "fukushima_iwaki",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 86.1e6,
+          "tpo": 100,
+          "erp": 160,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010848&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "fukushima_nakoso",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 83.6e6,
+          "tpo": 100,
+          "erp": 110,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000011034&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ラジオ福島",
+      "nickname": "ラジオ福島",
+      "abbreviations": [
+        "rfc"
+      ],
+      "callsign": "JOWR",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.rfc.jp/"
+        }
+      ],
+      "studio": {
+        "addressId": "fukushima_rfc"
+      },
+      "stations": [
+        {
+          "type": "relay",
+          "addressId": "fukushima_sasamori",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 90.8e6,
+          "tpo": 500,
+          "erp": 1300,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001207097&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "fukushima_kohriyama",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 90.8e6,
+          "tpo": 500,
+          "erp": 1300,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001207098&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "fukushima_aizuwakamatsu",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 90.8e6,
+          "tpo": 250,
+          "erp": 1150,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001224672&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "fukushima_higashikaneyama",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 77.8e6,
+          "tpo": 20,
+          "erp": 21,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001190180&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "fukushima_kaneyama_rfc",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 79.3e6,
+          "tpo": 20,
+          "erp": 28.8,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001199558&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "fukushima_nishikaneyama",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 79.3e6,
+          "tpo": 5,
+          "erp": 9.5,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001219232&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "fukushima_iwaki",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 90.2e6,
+          "tpo": 100,
+          "erp": 175,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001228578&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "fukushima_iwaki",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 90.2e6,
+          "tpo": 100,
+          "erp": 175,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001228578&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "fukushima_haramachi",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 90.2e6,
+          "tpo": 100,
+          "erp": 390,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001228579&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "エフエム福島",
+      "nickname": "ふくしまFM",
+      "callsign": "JOTV-FM",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.fmf.co.jp/"
+        }
+      ],
+      "studio": {
+        "addressId": "fukushima_fmfukushima"
+      },
+      "stations": [
+        {
+          "type": "primary",
+          "addressId": "fukushima_sasamori",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 81.8e6,
+          "tpo": 1000,
+          "erp": 4800,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000015488&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "fukushima_aizuwakamatsu",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 82.8e6,
+          "tpo": 250,
+          "erp": 1150,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000015490&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "fukushima_haramachi",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 78.6e6,
+          "tpo": 100,
+          "erp": 190,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000434319&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "fukushima_shirakawa",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 79.8e6,
+          "tpo": 100,
+          "erp": 97.7,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000015492&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "fukushima_iwaki",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 78.6e6,
+          "tpo": 100,
+          "erp": 160,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000015494&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "日本放送協会",
       "nickname": "NHK-FM(水戸)",
       "callsign": "JOEP-FM",
       "links": [
@@ -1541,6 +2004,264 @@
     }
   ],
   "addresses": {
+    "fukushima_nhk": {
+      "name": "NHK福島放送局",
+      "address": {
+        "prefecture": "福島県",
+        "city": "福島市",
+        "street": "早稲町1-2"
+      },
+      "coordinates": {
+        "lat": 37.751389,
+        "lng": 140.460667
+      }
+    },
+    "fukushima_rfc": {
+      "name": "ラジオ福島",
+      "address": {
+        "prefecture": "福島県",
+        "city": "福島市",
+        "street": "下荒子8"
+      },
+      "coordinates": {
+        "lat": 37.774083,
+        "lng": 140.491167
+      }
+    },
+    "fukushima_fmfukushima": {
+      "name": "エフエム福島",
+      "address": {
+        "prefecture": "福島県",
+        "city": "郡山市",
+        "street": "神明町4-4"
+      },
+      "coordinates": {
+        "lat": 37.400580,
+        "lng": 140.374829
+      }
+    },
+    "fukushima_sasamori": {
+      "name": "笹森山送信局",
+      "address": {
+        "prefecture": "福島県",
+        "city": "福島市",
+        "street": "松川町水原南沢"
+      },
+      "coordinates": {
+        "lat": 37.656505,
+        "lng": 140.390641
+      }
+    },
+    "fukushima_datetsukidate": {
+      "name": "月舘中継局",
+      "address": {
+        "prefecture": "福島県",
+        "city": "伊達市"
+      },
+      "coordinates": {
+        "lat": 37.754442,
+        "lng": 140.588504
+      }
+    },
+    "fukushima_ono": {
+      "name": "小野中継局",
+      "address": {
+        "prefecture": "福島県",
+        "city": "田村郡小野町"
+      },
+      "coordinates": {
+        "lat": 37.302408,
+        "lng": 140.627674
+      }
+    },
+    "fukushima_hanawa": {
+      "name": "塙中継局",
+      "address": {
+        "prefecture": "福島県",
+        "city": "東白川郡塙町",
+        "street": "台宿"
+      },
+      "coordinates": {
+        "lat": 36.963446,
+        "lng": 140.399987
+      }
+    },
+    "fukushima_shirakawa": {
+      "name": "白河中継局",
+      "address": {
+        "prefecture": "福島県",
+        "city": "白河市",
+        "street": "新大久保"
+      },
+      "coordinates": {
+        "lat": 37.132230,
+        "lng": 140.230102
+      }
+    },
+    "fukushima_aizuwakamatsu": {
+      "name": "会津若松中継局",
+      "address": {
+        "prefecture": "福島県",
+        "city": "会津若松市",
+        "street": "東山町大字湯本"
+      },
+      "coordinates": {
+        "lat": 37.472459,
+        "lng": 139.980167
+      }
+    },
+    "fukushima_kohriyama": {
+      "name": "郡山中継局",
+      "address": {
+        "prefecture": "福島県",
+        "city": "郡山市",
+        "street": "中田町柳橋"
+      },
+      "coordinates": {
+        "lat": 37.367067,
+        "lng": 140.557296
+      }
+    },
+    "fukushima_yanaizu": {
+      "name": "柳津三島中継局",
+      "address": {
+        "prefecture": "福島県",
+        "city": "河沼郡柳津町"
+      },
+      "coordinates": {
+        "lat": 37.501782,
+        "lng": 139.692611
+      }
+    },
+    "fukushima_higashikaneyama": {
+      "name": "東金山中継局",
+      "address": {
+        "prefecture": "福島県",
+        "city": "大沼郡金山町",
+        "street": "大栗山"
+      },
+      "coordinates": {
+        "lat": 37.463374,
+        "lng": 139.555610
+      }
+    },
+    "fukushima_nishikaneyama": {
+      "name": "西金山中継局",
+      "address": {
+        "prefecture": "福島県",
+        "city": "大沼郡金山町"
+      },
+      "coordinates": {
+        "lat": 37.384601,
+        "lng": 139.404903
+      }
+    },
+    "fukushima_kaneyama_rfc": {
+      "name": "金山中継局",
+      "address": {
+        "prefecture": "福島県",
+        "city": "大沼郡金山町",
+        "street": "八町狐穴"
+      },
+      "coordinates": {
+        "lat": 37.425795,
+        "lng": 139.542387
+      }
+    },
+    "fukushima_tajima": {
+      "name": "田島中継局",
+      "address": {
+        "prefecture": "福島県",
+        "city": "南会津郡下郷町",
+        "street": "沢田"
+      },
+      "coordinates": {
+        "lat": 37.224968,
+        "lng": 139.856656
+      }
+    },
+    "fukushima_nango": {
+      "name": "南郷中継局",
+      "address": {
+        "prefecture": "福島県",
+        "city": "南会津郡南会津町",
+        "street": "宮床"
+      },
+      "coordinates": {
+        "lat": 37.249677,
+        "lng": 139.554471
+      }
+    },
+    "fukushima_tadami": {
+      "name": "只見中継局",
+      "address": {
+        "prefecture": "福島県",
+        "city": "南会津郡只見町",
+        "street": "福井"
+      },
+      "coordinates": {
+        "lat": 37.304866,
+        "lng": 139.356768
+      }
+    },
+    "fukushima_higashitadami": {
+      "name": "東只見中継局",
+      "address": {
+        "prefecture": "福島県",
+        "city": "南会津郡只見町",
+        "street": "小林日宮沢"
+      },
+      "coordinates": {
+        "lat": 37.325454,
+        "lng": 139.427342
+      }
+    },
+    "fukushima_haramachi": {
+      "name": "原町中継局",
+      "address": {
+        "prefecture": "福島県",
+        "city": "南相馬市"
+      },
+      "coordinates": {
+        "lat": 37.640027,
+        "lng": 140.874859
+      }
+    },
+    "fukushima_tomioka": {
+      "name": "富岡中継局",
+      "address": {
+        "prefecture": "福島県",
+        "city": "双葉郡楢葉町"
+      },
+      "coordinates": {
+        "lat": 37.297909,
+        "lng": 140.921098
+      }
+    },
+    "fukushima_iwaki": {
+      "name": "いわき中継局",
+      "address": {
+        "prefecture": "福島県",
+        "city": "いわき市",
+        "street": "三和町合戸内畑280"
+      },
+      "coordinates": {
+        "lat": 37.106885,
+        "lng": 140.796584
+      }
+    },
+    "fukushima_nakoso": {
+      "name": "勿来中継局",
+      "address": {
+        "prefecture": "福島県",
+        "city": "いわき市",
+        "street": "常磐藤原町"
+      },
+      "coordinates": {
+        "lat": 37.024423,
+        "lng": 140.794927
+      }
+    },
     "ibaraki_nhk": {
       "name": "NHK水戸放送局",
       "address": {
