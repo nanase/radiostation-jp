@@ -113,7 +113,7 @@ async function checkRadioSpec(data) {
 
       const locationCity = address.address.prefecture + address.address.city;
       const licenses = fetchedLicenses.musen.filter(l =>
-        station.type !== 'reserve' && l.listInfo.tdfkCd === locationCity ||
+        station.type !== 'reserve' && (l.listInfo.tdfkCd === locationCity || l.detailInfo.radioEuipmentLocation.indexOf('送信所') !== -1 && l.detailInfo.radioEuipmentLocation.indexOf(locationCity)) ||
         l.detailInfo.radioEuipmentLocation.indexOf('予備送信所') !== -1 && l.detailInfo.radioEuipmentLocation.indexOf(locationCity));
 
       // 免許状に記載の住所と一致する送信局が存在しない
