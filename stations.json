@@ -2,6 +2,441 @@
   "radioStations": [
     {
       "name": "日本放送協会",
+      "nickname": "NHK-FM(秋田)",
+      "callsign": "JOUK-FM",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.nhk.or.jp/akita/"
+        }
+      ],
+      "studio": {
+        "addressId": "akita_nhk"
+      },
+      "stations": [
+        {
+          "type": "primary",
+          "addressId": "akita_ohmoriyama_nhk",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 86.7e6,
+          "tpo": 3000,
+          "erp": 9700,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010827&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "akita_ohdate",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 88.3e6,
+          "tpo": 100,
+          "erp": 155,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010828&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "akita_hanaya",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 85.7e6,
+          "tpo": 1,
+          "erp": 3,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000011315&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "akita_yuzawa",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.9e6,
+          "tpo": 100,
+          "erp": 150,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010830&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "akita_hanawa",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 83.8e6,
+          "tpo": 100,
+          "erp": 130,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010829&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "akita_noshiro",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 83.6e6,
+          "tpo": 100,
+          "erp": 120,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010831&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "akita_futatsui",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 82.5e6,
+          "tpo": 10,
+          "erp": 18.5,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000011074&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "akita_honjo",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 83.9e6,
+          "tpo": 10,
+          "erp": 16,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000011212&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "akita_higashiyuri",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 85.3e6,
+          "tpo": 3,
+          "erp": 4.8,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000012110&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "akita_yashima",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 85.2e6,
+          "tpo": 1,
+          "erp": 1.6,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000011006&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "akita_kakunodate",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 85.8e6,
+          "tpo": 3,
+          "erp": 3.1,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000011058&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "akita_tazawako",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 89.9e6,
+          "tpo": 1,
+          "erp": 1.65,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010991&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "akita_ani",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.5e6,
+          "tpo": 3,
+          "erp": 4.75,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000012014&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "日本放送協会",
+      "nickname": "NHKラジオ第1放送(秋田)",
+      "callsign": "JOUK",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.nhk.or.jp/akita/"
+        }
+      ],
+      "studio": {
+        "addressId": "akita_nhk"
+      },
+      "stations": [
+        {
+          "type": "relay",
+          "addressId": "akita_higashinaruse",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 81.5e6,
+          "tpo": 1,
+          "erp": 1.5,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001185383&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "akita_higashinaruse_tsubakigawa",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 87.7e6,
+          "tpo": 10,
+          "erp": 21,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001185384&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "akita_minase",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 84.2e6,
+          "tpo": 10,
+          "erp": 10,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001219857&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "秋田放送",
+      "nickname": "ABSラジオ",
+      "callsign": "JOTR",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.akita-abs.co.jp/"
+        }
+      ],
+      "studio": {
+        "addressId": "akita_abs"
+      },
+      "stations": [
+        {
+          "type": "relay",
+          "addressId": "akita_ohmoriyama",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 90.1e6,
+          "tpo": 1000,
+          "erp": 1800,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001175476&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "エフエム秋田",
+      "abbreviations": [
+        "AFM"
+      ],
+      "nickname": "エフエム秋田",
+      "callsign": "JOPU-FM",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.fm-akita.co.jp/"
+        }
+      ],
+      "studio": {
+        "addressId": "akita_fmakita"
+      },
+      "stations": [
+        {
+          "type": "primary",
+          "addressId": "akita_ohmoriyama_nhk",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 82.8e6,
+          "tpo": 3000,
+          "erp": 16000,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000013043&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "akita_hanawa",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 77.1e6,
+          "tpo": 100,
+          "erp": 110,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000013044&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "akita_hanawa",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 77.1e6,
+          "tpo": 100,
+          "erp": 110,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000013044&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "akita_ohdate",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 89.2e6,
+          "tpo": 100,
+          "erp": 150,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000013045&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "akita_noshiro",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 89.7e6,
+          "tpo": 100,
+          "erp": 125,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000013046&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "akita_kakunodate",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 78.9e6,
+          "tpo": 3,
+          "erp": 3.4,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000014446&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "akita_honjo",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 77.7e6,
+          "tpo": 10,
+          "erp": 16.5,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000013048&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "akita_yuzawa",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 78.0e6,
+          "tpo": 100,
+          "erp": 115,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000013047&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "akita_ugo",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 89.0e6,
+          "tpo": 10,
+          "erp": 16.5,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001226638&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "akita_ugo",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 89.0e6,
+          "tpo": 10,
+          "erp": 16.5,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001226638&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "akita_higashinaruse",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 89.4e6,
+          "tpo": 5,
+          "erp": 8.3,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001249697&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "日本放送協会",
       "nickname": "NHK-FM(山形)",
       "callsign": "JOJG-FM",
       "links": [
@@ -2250,6 +2685,258 @@
     }
   ],
   "addresses": {
+    "akita_nhk": {
+      "name": "NHK秋田放送局",
+      "address": {
+        "prefecture": "秋田県",
+        "city": "秋田市",
+        "street": "東通仲町4-2"
+      },
+      "coordinates": {
+        "lat": 39.715833,
+        "lng": 140.131944
+      }
+    },
+    "akita_abs": {
+      "name": "秋田放送",
+      "address": {
+        "prefecture": "秋田県",
+        "city": "秋田市",
+        "street": "中通7丁目1-1-2"
+      },
+      "coordinates": {
+        "lat": 39.718389,
+        "lng": 140.096306
+      }
+    },
+    "akita_fmakita": {
+      "name": "エフエム秋田",
+      "address": {
+        "prefecture": "秋田県",
+        "city": "秋田市",
+        "street": "八橋本町3丁目7-10"
+      },
+      "coordinates": {
+        "lat": 39.724582,
+        "lng": 140.101152
+      }
+    },
+    "akita_ohmoriyama_nhk": {
+      "name": "大森山テレビ・FM放送所",
+      "address": {
+        "prefecture": "秋田県",
+        "city": "秋田市",
+        "street": "浜田大森山29-7"
+      },
+      "coordinates": {
+        "lat": 39.665030,
+        "lng": 140.075031
+      }
+    },
+    "akita_ohmoriyama": {
+      "name": "大森山送信所",
+      "address": {
+        "prefecture": "秋田県",
+        "city": "秋田市",
+        "street": "浜田大森山29-2"
+      },
+      "coordinates": {
+        "lat": 39.665681,
+        "lng": 140.073459
+      }
+    },
+    "akita_ohdate": {
+      "name": "大館中継局",
+      "address": {
+        "prefecture": "秋田県",
+        "city": "大館市",
+        "street": "早口字長坂地内"
+      },
+      "coordinates": {
+        "lat": 40.283320,
+        "lng": 140.402606
+      }
+    },
+    "akita_hanaya": {
+      "name": "花矢中継局",
+      "address": {
+        "prefecture": "秋田県",
+        "city": "大館市",
+        "street": "山田字保滝沢"
+      },
+      "coordinates": {
+        "lat": 40.314702,
+        "lng": 140.528617
+      }
+    },
+    "akita_yuzawa": {
+      "name": "湯沢中継局",
+      "address": {
+        "prefecture": "秋田県",
+        "city": "湯沢市",
+        "street": "御嶽山"
+      },
+      "coordinates": {
+        "lat": 39.169188,
+        "lng": 140.507269
+      }
+    },
+    "akita_hanawa": {
+      "name": "花輪中継局",
+      "address": {
+        "prefecture": "秋田県",
+        "city": "鹿角市",
+        "street": "尾去沢13"
+      },
+      "coordinates": {
+        "lat": 40.168848,
+        "lng": 140.753141
+      }
+    },
+    "akita_noshiro": {
+      "name": "能代中継局",
+      "address": {
+        "prefecture": "秋田県",
+        "city": "能代市",
+        "street": "山神社前"
+      },
+      "coordinates": {
+        "lat": 40.187328,
+        "lng": 140.130626
+      }
+    },
+    "akita_futatsui": {
+      "name": "二ツ井中継局",
+      "address": {
+        "prefecture": "秋田県",
+        "city": "能代市",
+        "street": "二ツ井町小繋"
+      },
+      "coordinates": {
+        "lat": 40.226964,
+        "lng": 140.260205
+      }
+    },
+    "akita_honjo": {
+      "name": "本荘中継局",
+      "address": {
+        "prefecture": "秋田県",
+        "city": "由利本荘市",
+        "street": "石脇上長老沼"
+      },
+      "coordinates": {
+        "lat": 39.401871,
+        "lng": 140.045450
+      }
+    },
+    "akita_higashiyuri": {
+      "name": "東由利中継局",
+      "address": {
+        "prefecture": "秋田県",
+        "city": "由利本荘市",
+        "street": "東由利老方字角間台26"
+      },
+      "coordinates": {
+        "lat": 39.318559,
+        "lng": 140.302181
+      }
+    },
+    "akita_yashima": {
+      "name": "矢島中継局",
+      "address": {
+        "prefecture": "秋田県",
+        "city": "由利本荘市",
+        "street": "鳥海町栗沢字高比良38"
+      },
+      "coordinates": {
+        "lat": 39.213375,
+        "lng": 140.194042
+      }
+    },
+    "akita_kakunodate": {
+      "name": "角館中継局",
+      "address": {
+        "prefecture": "秋田県",
+        "city": "仙北市",
+        "street": "角館町小勝田字北沢227"
+      },
+      "coordinates": {
+        "lat": 39.609019,
+        "lng": 140.547436
+      }
+    },
+    "akita_tazawako": {
+      "name": "田沢湖中継局",
+      "address": {
+        "prefecture": "秋田県",
+        "city": "仙北市",
+        "street": "田沢湖生保内字黒野沢31-4"
+      },
+      "coordinates": {
+        "lat": 39.729275,
+        "lng": 140.757788
+      }
+    },
+    "akita_ani": {
+      "name": "阿仁中継局",
+      "address": {
+        "prefecture": "秋田県",
+        "city": "北秋田市",
+        "street": "阿仁水無字水上3"
+      },
+      "coordinates": {
+        "lat": 40.013985,
+        "lng": 140.390882
+      }
+    },
+    "akita_higashinaruse": {
+      "name": "東成瀬中継局",
+      "address": {
+        "prefecture": "秋田県",
+        "city": "雄勝郡東成瀬村",
+        "street": "椿川柳沢"
+      },
+      "coordinates": {
+        "lat": 39.154204,
+        "lng": 140.722475
+      }
+    },
+    "akita_higashinaruse_tsubakigawa": {
+      "name": "東成瀬椿川中継局",
+      "address": {
+        "prefecture": "秋田県",
+        "city": "雄勝郡東成瀬村",
+        "street": "岩井川城下107"
+      },
+      "coordinates": {
+        "lat": 39.174017,
+        "lng": 140.713882
+      }
+    },
+    "akita_minase": {
+      "name": "皆瀬中継局",
+      "address": {
+        "prefecture": "秋田県",
+        "city": "湯沢市",
+        "street": "皆瀬"
+      },
+      "coordinates": {
+        "lat": 39.051446,
+        "lng": 140.628522
+      }
+    },
+    "akita_ugo": {
+      "name": "羽後中継局",
+      "address": {
+        "prefecture": "秋田県",
+        "city": "雄勝郡羽後町",
+        "street": "田代"
+      },
+      "coordinates": {
+        "lat": 39.203209,
+        "lng": 140.348341
+      }
+    },
     "yamagata_nhk": {
       "name": "NHK山形放送局",
       "address": {
