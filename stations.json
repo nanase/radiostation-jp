@@ -2,6 +2,252 @@
   "radioStations": [
     {
       "name": "日本放送協会",
+      "nickname": "NHK-FM(山形)",
+      "callsign": "JOJG-FM",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.nhk.or.jp/yamagata/"
+        }
+      ],
+      "studio": {
+        "addressId": "yamagata_nhk"
+      },
+      "stations": [
+        {
+          "type": "primary",
+          "addressId": "yamagata_nishizao_nhk",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 82.1e6,
+          "tpo": 1000,
+          "erp": 5400,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010832&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "yamagata_tsuruoka",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 86.0e6,
+          "tpo": 250,
+          "erp": 1400,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010835&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "yamagata_atsumi",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.8e6,
+          "tpo": 10,
+          "erp": 18.5,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010863&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "yamagata_shinjo",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 88.3e6,
+          "tpo": 50,
+          "erp": 28,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010833&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "yamagata_yonezawa",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.2e6,
+          "tpo": 10,
+          "erp": 9.3,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000011168&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "yamagata_oguni",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 89.8e6,
+          "tpo": 10,
+          "erp": 26,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010879&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "yamagata_nagai",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.6e6,
+          "tpo": 100,
+          "erp": 115,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010834&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "yamagata_shirataka",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.0e6,
+          "tpo": 1,
+          "erp": 1.6,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000011075&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "yamagata_asahi",
+          "attributes": [
+            "fm"
+          ],
+          "openDate": "2015-11-01",
+          "frequency": 83.7e6,
+          "tpo": 10,
+          "erp": 16.5,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001185388&DD=1&styleNumber=01",
+            "https://www.soumu.go.jp/soutsu/tohoku/hodo/h271026b1001.html"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "山形放送",
+      "nickname": "YBCラジオ",
+      "callsign": "JOEF",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.ybc.co.jp/"
+        }
+      ],
+      "studio": {
+        "addressId": "yamagata_ybc"
+      },
+      "stations": [
+        {
+          "type": "relay",
+          "addressId": "yamagata_nishizao_ybc",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 92.4e6,
+          "tpo": 1000,
+          "erp": 2600,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001226272&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "エフエム山形",
+      "nickname": "Rhythm Station",
+      "callsign": "JOEV-FM",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.rfm.co.jp/"
+        }
+      ],
+      "studio": {
+        "addressId": "yamagata_fmyamagata"
+      },
+      "stations": [
+        {
+          "type": "primary",
+          "addressId": "yamagata_nishizao_nhk",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 80.4e6,
+          "tpo": 1000,
+          "erp": 5400,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000014398&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "yamagata_tsuruoka",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 76.9e6,
+          "tpo": 250,
+          "erp": 1650,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000014399&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "yamagata_shinjo",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 78.2e6,
+          "tpo": 50,
+          "erp": 28,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000014400&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "yamagata_shinjo",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 78.2e6,
+          "tpo": 50,
+          "erp": 28,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000014400&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "yamagata_yonezawa",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 77.3e6,
+          "tpo": 100,
+          "erp": 93,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000014401&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "日本放送協会",
       "nickname": "NHK-FM(福島)",
       "callsign": "JOFP-FM",
       "links": [
@@ -2004,6 +2250,160 @@
     }
   ],
   "addresses": {
+    "yamagata_nhk": {
+      "name": "NHK山形放送局",
+      "address": {
+        "prefecture": "山形県",
+        "city": "山形市",
+        "street": "桜町2-50"
+      },
+      "coordinates": {
+        "lat": 38.251389,
+        "lng": 140.331806
+      }
+    },
+    "yamagata_ybc": {
+      "name": "山形放送",
+      "address": {
+        "prefecture": "山形県",
+        "city": "山形市",
+        "street": "旅篭町2丁目5-12"
+      },
+      "coordinates": {
+        "lat": 38.256305,
+        "lng": 140.338815
+      }
+    },
+    "yamagata_fmyamagata": {
+      "name": "エフエム山形",
+      "address": {
+        "prefecture": "山形県",
+        "city": "山形市",
+        "street": "松山3丁目14-69"
+      },
+      "coordinates": {
+        "lat": 38.235423,
+        "lng": 140.353132
+      }
+    },
+    "yamagata_nishizao_nhk": {
+      "name": "西蔵王テレビ・FM放送所",
+      "address": {
+        "prefecture": "山形県",
+        "city": "山形市",
+        "street": "岩波1338-2"
+      },
+      "coordinates": {
+        "lat": 38.205526,
+        "lng": 140.359891
+      }
+    },
+    "yamagata_nishizao_ybc": {
+      "name": "西蔵王テレビ・FM補完中継局",
+      "address": {
+        "prefecture": "山形県",
+        "city": "山形市",
+        "street": "神尾"
+      },
+      "coordinates": {
+        "lat": 38.202193,
+        "lng": 140.355350
+      }
+    },
+    "yamagata_tsuruoka": {
+      "name": "鶴岡中継局",
+      "address": {
+        "prefecture": "山形県",
+        "city": "鶴岡市",
+        "street": "金沢331"
+      },
+      "coordinates": {
+        "lat": 38.762836,
+        "lng": 139.748369
+      }
+    },
+    "yamagata_atsumi": {
+      "name": "温海中継局",
+      "address": {
+        "prefecture": "山形県",
+        "city": "鶴岡市",
+        "street": "温海片淵8-3"
+      },
+      "coordinates": {
+        "lat": 38.619816,
+        "lng": 139.587255
+      }
+    },
+    "yamagata_shinjo": {
+      "name": "新庄中継局",
+      "address": {
+        "prefecture": "山形県",
+        "city": "新庄市"
+      },
+      "coordinates": {
+        "lat": 38.779884,
+        "lng": 140.389326
+      }
+    },
+    "yamagata_yonezawa": {
+      "name": "米沢中継局",
+      "address": {
+        "prefecture": "山形県",
+        "city": "米沢市",
+        "street": "赤芝町2438"
+      },
+      "coordinates": {
+        "lat": 37.880406,
+        "lng": 140.079903
+      }
+    },
+    "yamagata_oguni": {
+      "name": "小国中継局",
+      "address": {
+        "prefecture": "山形県",
+        "city": "西置賜郡小国町"
+      },
+      "coordinates": {
+        "lat": 38.088202,
+        "lng": 139.711615
+      }
+    },
+    "yamagata_nagai": {
+      "name": "長井中継局",
+      "address": {
+        "prefecture": "山形県",
+        "city": "西置賜郡飯豊町",
+        "street": "添川"
+      },
+      "coordinates": {
+        "lat": 38.016673,
+        "lng": 140.025623
+      }
+    },
+    "yamagata_shirataka": {
+      "name": "白鷹中継局",
+      "address": {
+        "prefecture": "山形県",
+        "city": "西置賜郡白鷹町",
+        "street": "荒砥乙"
+      },
+      "coordinates": {
+        "lat": 38.170345,
+        "lng": 140.128549
+      }
+    },
+    "yamagata_asahi": {
+      "name": "朝日中継局",
+      "address": {
+        "prefecture": "山形県",
+        "city": "西村山郡朝日町",
+        "street": "下芦沢"
+      },
+      "coordinates": {
+        "lat": 38.294278,
+        "lng": 140.165079
+      }
+    },
     "fukushima_nhk": {
       "name": "NHK福島放送局",
       "address": {
