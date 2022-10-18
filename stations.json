@@ -409,19 +409,6 @@
         },
         {
           "type": "relay",
-          "addressId": "akita_ugo",
-          "attributes": [
-            "fm"
-          ],
-          "frequency": 89.0e6,
-          "tpo": 10,
-          "erp": 16.5,
-          "citations": [
-            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001226638&DD=1&styleNumber=01"
-          ]
-        },
-        {
-          "type": "relay",
           "addressId": "akita_higashinaruse",
           "attributes": [
             "fm"
@@ -638,19 +625,6 @@
           "erp": 1650,
           "citations": [
             "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000014399&DD=1&styleNumber=01"
-          ]
-        },
-        {
-          "type": "relay",
-          "addressId": "yamagata_shinjo",
-          "attributes": [
-            "fm"
-          ],
-          "frequency": 78.2e6,
-          "tpo": 50,
-          "erp": 28,
-          "citations": [
-            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000014400&DD=1&styleNumber=01"
           ]
         },
         {
