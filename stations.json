@@ -2682,6 +2682,177 @@
           ]
         }
       ]
+    },
+    {
+      "name": "日本放送協会",
+      "nickname": "NHK-FM(甲府)",
+      "callsign": "JOKG-FM",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.nhk.or.jp/kofu/"
+        }
+      ],
+      "studio": {
+        "addressId": "yamanashi_nhk"
+      },
+      "stations": [
+        {
+          "type": "primary",
+          "addressId": "yamanashi_fuefuki",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 85.6e6,
+          "tpo": 1000,
+          "erp": 4500,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033412&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "yamanashi_mitsutoge",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 86.0e6,
+          "tpo": 100,
+          "erp": 155,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033436&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "yamanashi_minobu",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.7e6,
+          "tpo": 100,
+          "erp": 175,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033413&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "山梨放送",
+      "nickname": "YBSラジオ",
+      "callsign": "JOJF",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.ybs.jp/"
+        }
+      ],
+      "studio": {
+        "addressId": "yamanashi_ybs"
+      },
+      "stations": [
+        {
+          "type": "relay",
+          "addressId": "yamanashi_fuefuki",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 90.9e6,
+          "tpo": 1000,
+          "erp": 3100,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0004013313&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "yamanashi_mitsutoge",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 90.9e6,
+          "tpo": 100,
+          "erp": 155,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0004089742&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "yamanashi_minobu",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 84.7e6,
+          "tpo": 100,
+          "erp": 175,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000033413&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "エフエム富士",
+      "nickname": "FM FUJI",
+      "abbreviations": [
+        "FMF"
+      ],
+      "callsign": "JOCV-FM",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://fmfuji.jp/"
+        }
+      ],
+      "studio": {
+        "addressId": "yamanashi_fmfuji"
+      },
+      "stations": [
+        {
+          "type": "primary",
+          "addressId": "yamanashi_fuefuki",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 83.0e6,
+          "tpo": 1000,
+          "erp": 4500,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000036222&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "yamanashi_mitsutoge",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 78.6e6,
+          "tpo": 300,
+          "erp": 2600,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000036223&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "yamanashi_minobu",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 80.5e6,
+          "tpo": 100,
+          "erp": 175,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=A&DFCD=0000036224&DD=1&styleNumber=01"
+          ]
+        }
+      ]
     }
   ],
   "addresses": {
@@ -4135,6 +4306,78 @@
       "coordinates": {
         "lat": 35.524506,
         "lng": 139.664026
+      }
+    },
+    "yamanashi_nhk": {
+      "name": "NHK甲府放送局",
+      "address": {
+        "prefecture": "山梨県",
+        "city": "甲府市",
+        "street": "丸の内1丁目1-20"
+      },
+      "coordinates": {
+        "lat": 35.667833,
+        "lng": 138.568667
+      }
+    },
+    "yamanashi_ybs": {
+      "name": "山梨放送",
+      "address": {
+        "prefecture": "山梨県",
+        "city": "甲府市",
+        "street": "北口2丁目6-10"
+      },
+      "coordinates": {
+        "lat": 35.668262,
+        "lng": 138.570954
+      }
+    },
+    "yamanashi_fmfuji": {
+      "name": "エフエム富士",
+      "address": {
+        "prefecture": "山梨県",
+        "city": "甲府市",
+        "street": "川田町アリア105"
+      },
+      "coordinates": {
+        "lat": 35.650017,
+        "lng": 138.625604
+      }
+    },
+    "yamanashi_fuefuki": {
+      "name": "甲府送信所",
+      "address": {
+        "prefecture": "山梨県",
+        "city": "笛吹市",
+        "street": "境川町坊ヶ峰字黒木平2-56"
+      },
+      "coordinates": {
+        "lat": 35.598156,
+        "lng": 138.613335
+      }
+    },
+    "yamanashi_mitsutoge": {
+      "name": "三ツ峠中継局",
+      "address": {
+        "prefecture": "山梨県",
+        "city": "南都留郡富士河口湖町",
+        "street": "河口字御巣鷹山2733-1"
+      },
+      "coordinates": {
+        "lat": 35.551230,
+        "lng": 138.810025
+      }
+    },
+    "yamanashi_minobu": {
+      "name": "身延中継局",
+      "address": {
+        "prefecture": "山梨県",
+        "city": "南巨摩郡身延町",
+        "street": "身延字奥之院"
+      },
+      "coordinates": {
+        "lat": 35.397953,
+        "lng": 138.417428
       }
     }
   }
