@@ -2762,7 +2762,7 @@
       "address": {
         "prefecture": "秋田県",
         "city": "大館市",
-        "street": "山田字保滝沢"
+        "street": "山田字保滝沢69-1"
       },
       "coordinates": {
         "lat": 40.314702,
@@ -2774,7 +2774,7 @@
       "address": {
         "prefecture": "秋田県",
         "city": "湯沢市",
-        "street": "御嶽山"
+        "street": "御嶽山3-1"
       },
       "coordinates": {
         "lat": 39.169188,
@@ -2786,7 +2786,7 @@
       "address": {
         "prefecture": "秋田県",
         "city": "鹿角市",
-        "street": "尾去沢13"
+        "street": "尾去沢国有林花輪事業区74と班"
       },
       "coordinates": {
         "lat": 40.168848,
@@ -2798,7 +2798,7 @@
       "address": {
         "prefecture": "秋田県",
         "city": "能代市",
-        "street": "山神社前"
+        "street": "山神社前86-4の内"
       },
       "coordinates": {
         "lat": 40.187328,
@@ -2810,7 +2810,7 @@
       "address": {
         "prefecture": "秋田県",
         "city": "能代市",
-        "street": "二ツ井町小繋"
+        "street": "荷上場字知行岩2-2の内"
       },
       "coordinates": {
         "lat": 40.226964,
@@ -2822,7 +2822,7 @@
       "address": {
         "prefecture": "秋田県",
         "city": "由利本荘市",
-        "street": "石脇上長老沼"
+        "street": "石脇字東山1-2"
       },
       "coordinates": {
         "lat": 39.401871,
@@ -2918,7 +2918,7 @@
       "address": {
         "prefecture": "秋田県",
         "city": "湯沢市",
-        "street": "皆瀬"
+        "street": "皆瀬上小保内"
       },
       "coordinates": {
         "lat": 39.051446,
@@ -2978,7 +2978,7 @@
       "address": {
         "prefecture": "山形県",
         "city": "山形市",
-        "street": "岩波1338-2"
+        "street": "岩波字横根1338-2"
       },
       "coordinates": {
         "lat": 38.205526,
@@ -3002,7 +3002,7 @@
       "address": {
         "prefecture": "山形県",
         "city": "鶴岡市",
-        "street": "金沢331"
+        "street": "大山字城山331"
       },
       "coordinates": {
         "lat": 38.762836,
@@ -3014,7 +3014,7 @@
       "address": {
         "prefecture": "山形県",
         "city": "鶴岡市",
-        "street": "温海片淵8-3"
+        "street": "温海字片淵8-3"
       },
       "coordinates": {
         "lat": 38.619816,
@@ -3025,7 +3025,8 @@
       "name": "新庄中継局",
       "address": {
         "prefecture": "山形県",
-        "city": "新庄市"
+        "city": "新庄市",
+        "street": "金沢"
       },
       "coordinates": {
         "lat": 38.779884,
@@ -3037,7 +3038,7 @@
       "address": {
         "prefecture": "山形県",
         "city": "米沢市",
-        "street": "赤芝町2438"
+        "street": "赤芝町字長峰244-2"
       },
       "coordinates": {
         "lat": 37.880406,
@@ -3048,7 +3049,8 @@
       "name": "小国中継局",
       "address": {
         "prefecture": "山形県",
-        "city": "西置賜郡小国町"
+        "city": "西置賜郡小国町",
+        "street": "小渡"
       },
       "coordinates": {
         "lat": 38.088202,
@@ -3132,7 +3134,7 @@
       "address": {
         "prefecture": "福島県",
         "city": "福島市",
-        "street": "松川町水原南沢"
+        "street": "松川町水原南沢2-57"
       },
       "coordinates": {
         "lat": 37.656505,
@@ -3143,7 +3145,8 @@
       "name": "月舘中継局",
       "address": {
         "prefecture": "福島県",
-        "city": "伊達市"
+        "city": "伊達市",
+        "street": "月舘町御代田"
       },
       "coordinates": {
         "lat": 37.754442,
@@ -3154,7 +3157,8 @@
       "name": "小野中継局",
       "address": {
         "prefecture": "福島県",
-        "city": "田村郡小野町"
+        "city": "田村郡小野町",
+        "street": "小野新町字愛宕"
       },
       "coordinates": {
         "lat": 37.302408,
@@ -3166,7 +3170,7 @@
       "address": {
         "prefecture": "福島県",
         "city": "東白川郡塙町",
-        "street": "台宿"
+        "street": "台宿字稲沢"
       },
       "coordinates": {
         "lat": 36.963446,
@@ -3178,7 +3182,7 @@
       "address": {
         "prefecture": "福島県",
         "city": "白河市",
-        "street": "新大久保"
+        "street": "金子平"
       },
       "coordinates": {
         "lat": 37.132230,
@@ -3190,7 +3194,7 @@
       "address": {
         "prefecture": "福島県",
         "city": "会津若松市",
-        "street": "東山町大字湯本"
+        "street": "湊町共和"
       },
       "coordinates": {
         "lat": 37.472459,
@@ -3213,7 +3217,8 @@
       "name": "柳津三島中継局",
       "address": {
         "prefecture": "福島県",
-        "city": "河沼郡柳津町"
+        "city": "河沼郡柳津町",
+        "street": "郷戸字持寄"
       },
       "coordinates": {
         "lat": 37.501782,
@@ -3225,7 +3230,7 @@
       "address": {
         "prefecture": "福島県",
         "city": "大沼郡金山町",
-        "street": "大栗山"
+        "street": "大栗山字赤岩"
       },
       "coordinates": {
         "lat": 37.463374,
@@ -3236,7 +3241,8 @@
       "name": "西金山中継局",
       "address": {
         "prefecture": "福島県",
-        "city": "大沼郡金山町"
+        "city": "大沼郡金山町",
+        "street": "田沢"
       },
       "coordinates": {
         "lat": 37.384601,
@@ -3260,7 +3266,7 @@
       "address": {
         "prefecture": "福島県",
         "city": "南会津郡下郷町",
-        "street": "沢田"
+        "street": "落合"
       },
       "coordinates": {
         "lat": 37.224968,
@@ -3284,7 +3290,7 @@
       "address": {
         "prefecture": "福島県",
         "city": "南会津郡只見町",
-        "street": "福井"
+        "street": "只見"
       },
       "coordinates": {
         "lat": 37.304866,
@@ -3296,7 +3302,7 @@
       "address": {
         "prefecture": "福島県",
         "city": "南会津郡只見町",
-        "street": "小林日宮沢"
+        "street": "亀岡"
       },
       "coordinates": {
         "lat": 37.325454,
@@ -3307,7 +3313,8 @@
       "name": "原町中継局",
       "address": {
         "prefecture": "福島県",
-        "city": "南相馬市"
+        "city": "南相馬市",
+        "street": "原町区高倉"
       },
       "coordinates": {
         "lat": 37.640027,
@@ -3318,7 +3325,8 @@
       "name": "富岡中継局",
       "address": {
         "prefecture": "福島県",
-        "city": "双葉郡楢葉町"
+        "city": "双葉郡楢葉町",
+        "street": "井出"
       },
       "coordinates": {
         "lat": 37.297909,
@@ -3330,7 +3338,7 @@
       "address": {
         "prefecture": "福島県",
         "city": "いわき市",
-        "street": "三和町合戸内畑280"
+        "street": "三和町合戸字内畑280"
       },
       "coordinates": {
         "lat": 37.106885,
@@ -3342,7 +3350,7 @@
       "address": {
         "prefecture": "福島県",
         "city": "いわき市",
-        "street": "常磐藤原町"
+        "street": "常磐藤原町2-7の内"
       },
       "coordinates": {
         "lat": 37.024423,
@@ -3378,7 +3386,7 @@
       "address": {
         "prefecture": "茨城県",
         "city": "桜川市",
-        "street": "猿田"
+        "street": "真壁町上小幡字前峰1480"
       },
       "coordinates": {
         "lat": 36.307513,
@@ -3414,7 +3422,7 @@
       "address": {
         "prefecture": "茨城県",
         "city": "久慈郡大子町",
-        "street": "南田気"
+        "street": "南田気字箕輪"
       },
       "coordinates": {
         "lat": 36.755192,
@@ -3426,7 +3434,7 @@
       "address": {
         "prefecture": "茨城県",
         "city": "北茨城市",
-        "street": "関本町"
+        "street": "関本町富士ヶ丘"
       },
       "coordinates": {
         "lat": 36.851728,
@@ -3486,7 +3494,7 @@
       "address": {
         "prefecture": "栃木県",
         "city": "宇都宮市",
-        "street": "今里町"
+        "street": "宮山田町字向山2803"
       },
       "coordinates": {
         "lat": 36.709659,
@@ -3522,7 +3530,7 @@
       "address": {
         "prefecture": "栃木県",
         "city": "佐野市",
-        "street": "長坂町"
+        "street": "長坂町字水ヶ沢3945-3"
       },
       "coordinates": {
         "lat": 36.402118,
@@ -3534,7 +3542,7 @@
       "address": {
         "prefecture": "栃木県",
         "city": "日光市",
-        "street": "倉ケ崎"
+        "street": "倉ケ崎字大久保979"
       },
       "coordinates": {
         "lat": 36.749763,
@@ -3546,7 +3554,7 @@
       "address": {
         "prefecture": "栃木県",
         "city": "那須塩原市",
-        "street": "塩原"
+        "street": "塩原字畑下"
       },
       "coordinates": {
         "lat": 36.968738,
@@ -3558,7 +3566,7 @@
       "address": {
         "prefecture": "栃木県",
         "city": "日光市",
-        "street": "足尾"
+        "street": "足尾町掛水字渡良瀬"
       },
       "coordinates": {
         "lat": 36.643776,
@@ -3594,7 +3602,7 @@
       "address": {
         "prefecture": "群馬県",
         "city": "高崎市",
-        "street": "吉井町多比良4458"
+        "street": "吉井町多比良字一郷4458"
       },
       "coordinates": {
         "lat": 36.220501,
@@ -3606,7 +3614,7 @@
       "address": {
         "prefecture": "群馬県",
         "city": "渋川市",
-        "street": "伊香保町伊香保"
+        "street": "伊香保町伊香保999-3"
       },
       "coordinates": {
         "lat": 36.481956,
@@ -3618,7 +3626,7 @@
       "address": {
         "prefecture": "群馬県",
         "city": "利根郡みなかみ町",
-        "street": "相俣"
+        "street": "相俣字大源田国有林250林班ロ小班"
       },
       "coordinates": {
         "lat": 36.730405,
@@ -3630,7 +3638,7 @@
       "address": {
         "prefecture": "群馬県",
         "city": "沼田市",
-        "street": "利根町追貝"
+        "street": "利根町追貝字小森国有林87林班イ5小班"
       },
       "coordinates": {
         "lat": 36.702518,
@@ -3641,7 +3649,8 @@
       "name": "草津中継局",
       "address": {
         "prefecture": "群馬県",
-        "city": "吾妻郡草津町"
+        "city": "吾妻郡草津町",
+        "street": "草津字白根国有林163林班イ小班"
       },
       "coordinates": {
         "lat": 36.615154,
@@ -3653,7 +3662,7 @@
       "address": {
         "prefecture": "群馬県",
         "city": "藤岡市",
-        "street": "坂原"
+        "street": "三波川字御荷鉾山3000-2"
       },
       "coordinates": {
         "lat": 36.145330,
@@ -3665,7 +3674,7 @@
       "address": {
         "prefecture": "群馬県",
         "city": "多野郡神流町",
-        "street": "麻生"
+        "street": "麻生字朴ノ木反486"
       },
       "coordinates": {
         "lat": 36.107317,
@@ -3677,7 +3686,7 @@
       "address": {
         "prefecture": "群馬県",
         "city": "吾妻郡長野原町",
-        "street": "与喜屋"
+        "street": "与喜屋字大峰1690-52"
       },
       "coordinates": {
         "lat": 36.538427,
@@ -3725,7 +3734,7 @@
       "address": {
         "prefecture": "埼玉県",
         "city": "秩父市",
-        "street": "黒谷"
+        "street": "黒谷字横道上2372-1"
       },
       "coordinates": {
         "lat": 36.057464,
@@ -3797,7 +3806,7 @@
       "address": {
         "prefecture": "千葉県",
         "city": "勝浦市",
-        "street": "大沢700-2"
+        "street": "大沢字上大沢700-2"
       },
       "coordinates": {
         "lat": 35.122738,
@@ -3809,7 +3818,7 @@
       "address": {
         "prefecture": "千葉県",
         "city": "館山市",
-        "street": "上真倉354-6"
+        "street": "洲宮字星祭"
       },
       "coordinates": {
         "lat": 34.965006,
@@ -3821,7 +3830,7 @@
       "address": {
         "prefecture": "千葉県",
         "city": "南房総市",
-        "street": "白浜町滝口5622"
+        "street": "白浜町滝口字向原"
       },
       "coordinates": {
         "lat": 34.910735,
@@ -3917,7 +3926,7 @@
       "address": {
         "prefecture": "東京都",
         "city": "墨田区",
-        "street": "押上1丁目1-1"
+        "street": "押上1丁目1-2"
       },
       "coordinates": {
         "lat": 35.710139,
@@ -3953,7 +3962,7 @@
       "address": {
         "prefecture": "東京都",
         "city": "八丈島八丈町",
-        "street": "大賀郷"
+        "street": "大賀郷2063"
       },
       "coordinates": {
         "lat": 33.092447,
@@ -3965,7 +3974,7 @@
       "address": {
         "prefecture": "東京都",
         "city": "小笠原村",
-        "street": "父島洲崎29"
+        "street": "父島字洲崎29"
       },
       "coordinates": {
         "lat": 27.072316,
@@ -3977,7 +3986,7 @@
       "address": {
         "prefecture": "東京都",
         "city": "小笠原村",
-        "street": "母島元地199-2"
+        "street": "母島字元地199-2"
       },
       "coordinates": {
         "lat": 26.640733,
