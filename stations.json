@@ -3,6 +3,204 @@
     {
       "name": "日本放送協会",
       "nicknames": [
+        "NHK-FM(仙台)"
+      ],
+      "callsign": "JOHK-FM",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.nhk.or.jp/sendai/"
+        }
+      ],
+      "studio": {
+        "addressId": "miyagi_nhk"
+      },
+      "stations": [
+        {
+          "type": "primary",
+          "addressId": "miyagi_dainenjiyama_nhk",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 82.5e6,
+          "tpo": 5000,
+          "erp": 31000,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010826&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "miyagi_naruko",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 85.2e6,
+          "tpo": 10,
+          "erp": 9.3,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000011029&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "miyagi_kesennuma",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.6e6,
+          "tpo": 100,
+          "erp": 180,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010922&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "miyagi_shizugawa",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 85.2e6,
+          "tpo": 10,
+          "erp": 16,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000011038&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "miyagi_shiraishi",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.3e6,
+          "tpo": 1,
+          "erp": 3,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000011670&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "東北放送",
+      "nicknames": [
+        "tbcラジオ"
+      ],
+      "callsign": "JOIR",
+      "links": [
+        {
+          "type": "official",
+          "uri": "http://www.tbc-sendai.co.jp/"
+        }
+      ],
+      "studio": {
+        "addressId": "miyagi_tbc"
+      },
+      "stations": [
+        {
+          "type": "relay",
+          "addressId": "miyagi_tbc",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 93.5e6,
+          "tpo": 5000,
+          "erp": 22000,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001207448&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "エフエム仙台",
+      "nicknames": [
+        "Date fm"
+      ],
+      "callsign": "JOJU-FM",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.datefm.co.jp/"
+        }
+      ],
+      "studio": {
+        "addressId": "miyagi_datefm"
+      },
+      "stations": [
+        {
+          "type": "primary",
+          "addressId": "miyagi_dainenjiyama_datefm",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 77.1e6,
+          "tpo": 5000,
+          "erp": 23000,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000012109&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "miyagi_kesennuma",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 81.3e6,
+          "tpo": 100,
+          "erp": 160,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000012163&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "miyagi_naruko",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.1e6,
+          "tpo": 10,
+          "erp": 7.9,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000012162&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "miyagi_shizugawa",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.1e6,
+          "tpo": 10,
+          "erp": 16.5,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000012164&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "miyagi_shiraishi",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 81.4e6,
+          "tpo": 1,
+          "erp": 3,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000012165&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "日本放送協会",
+      "nicknames": [
         "NHK-FM(秋田)"
       ],
       "callsign": "JOUK-FM",
@@ -2903,6 +3101,114 @@
     }
   ],
   "addresses": {
+    "miyagi_nhk": {
+      "name": "NHK仙台放送局",
+      "address": {
+        "prefecture": "宮城県",
+        "city": "仙台市青葉区",
+        "street": "本町2丁目20-1"
+      },
+      "coordinates": {
+        "lat": 38.266083,
+        "lng": 140.87425
+      }
+    },
+    "miyagi_tbc": {
+      "name": "東北放送",
+      "address": {
+        "prefecture": "宮城県",
+        "city": "仙台市太白区",
+        "street": "八木山香澄町26-1"
+      },
+      "coordinates": {
+        "lat": 38.247111,
+        "lng": 140.856056
+      }
+    },
+    "miyagi_datefm": {
+      "name": "エフエム仙台",
+      "address": {
+        "prefecture": "宮城県",
+        "city": "仙台市青葉区",
+        "street": "本町2丁目10-28"
+      },
+      "coordinates": {
+        "lat": 38.264374,
+        "lng": 140.876913
+      }
+    },
+    "miyagi_dainenjiyama_nhk": {
+      "name": "大年寺山送信所",
+      "address": {
+        "prefecture": "宮城県",
+        "city": "仙台市太白区",
+        "street": "茂ヶ崎3丁目11"
+      },
+      "coordinates": {
+        "lat": 38.238461,
+        "lng": 140.874321
+      }
+    },
+    "miyagi_dainenjiyama_datefm": {
+      "name": "大年寺山送信所",
+      "address": {
+        "prefecture": "宮城県",
+        "city": "仙台市太白区",
+        "street": "茂ヶ崎3丁目12-1"
+      },
+      "coordinates": {
+        "lat": 38.237492,
+        "lng": 140.873030
+      }
+    },
+    "miyagi_naruko": {
+      "name": "鳴子中継局",
+      "address": {
+        "prefecture": "宮城県",
+        "city": "大崎市",
+        "street": "鳴子温泉字岩渕"
+      },
+      "coordinates": {
+        "lat": 38.751411,
+        "lng": 140.709454
+      }
+    },
+    "miyagi_kesennuma": {
+      "name": "気仙沼中継局",
+      "address": {
+        "prefecture": "宮城県",
+        "city": "気仙沼市",
+        "street": "本吉町字狼の巣401"
+      },
+      "coordinates": {
+        "lat": 38.829065,
+        "lng": 141.520415
+      }
+    },
+    "miyagi_shizugawa": {
+      "name": "志津川中継局",
+      "address": {
+        "prefecture": "宮城県",
+        "city": "本吉郡南三陸町",
+        "street": "戸倉字波伝谷213-8"
+      },
+      "coordinates": {
+        "lat": 38.627938,
+        "lng": 141.474201
+      }
+    },
+    "miyagi_shiraishi": {
+      "name": "白石中継局",
+      "address": {
+        "prefecture": "宮城県",
+        "city": "白石市",
+        "street": "郡山字大萩山6-1"
+      },
+      "coordinates": {
+        "lat": 38.016944,
+        "lng": 140.651639
+      }
+    },
     "akita_nhk": {
       "name": "NHK秋田放送局",
       "address": {
