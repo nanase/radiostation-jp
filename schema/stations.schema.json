@@ -10,7 +10,7 @@
         "type": "object",
         "required": [
           "name",
-          "nickname",
+          "nicknames",
           "callsign",
           "studio",
           "stations"
@@ -21,9 +21,13 @@
             "type": "string",
             "title": "放送局名"
           },
-          "nickname": {
-            "type": "string",
-            "title": "愛称"
+          "nicknames": {
+            "type": "array",
+            "title": "愛称",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
           },
           "abbreviations": {
             "type": "array",

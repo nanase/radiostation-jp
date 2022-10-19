@@ -2,7 +2,9 @@
   "radioStations": [
     {
       "name": "日本放送協会",
-      "nickname": "NHK-FM(秋田)",
+      "nicknames": [
+        "NHK-FM(秋田)"
+      ],
       "callsign": "JOUK-FM",
       "links": [
         {
@@ -187,7 +189,9 @@
     },
     {
       "name": "日本放送協会",
-      "nickname": "NHKラジオ第1放送(秋田)",
+      "nicknames": [
+        "NHKラジオ第1放送(秋田)"
+      ],
       "callsign": "JOUK",
       "links": [
         {
@@ -245,7 +249,9 @@
     },
     {
       "name": "秋田放送",
-      "nickname": "ABSラジオ",
+      "nicknames": [
+        "ABSラジオ"
+      ],
       "callsign": "JOTR",
       "links": [
         {
@@ -278,7 +284,9 @@
       "abbreviations": [
         "AFM"
       ],
-      "nickname": "エフエム秋田",
+      "nicknames": [
+        "エフエム秋田"
+      ],
       "callsign": "JOPU-FM",
       "links": [
         {
@@ -424,7 +432,9 @@
     },
     {
       "name": "日本放送協会",
-      "nickname": "NHK-FM(山形)",
+      "nicknames": [
+        "NHK-FM(山形)"
+      ],
       "callsign": "JOJG-FM",
       "links": [
         {
@@ -559,7 +569,9 @@
     },
     {
       "name": "山形放送",
-      "nickname": "YBCラジオ",
+      "nicknames": [
+        "YBCラジオ"
+      ],
       "callsign": "JOEF",
       "links": [
         {
@@ -589,7 +601,9 @@
     },
     {
       "name": "エフエム山形",
-      "nickname": "Rhythm Station",
+      "nicknames": [
+        "Rhythm Station"
+      ],
       "callsign": "JOEV-FM",
       "links": [
         {
@@ -657,7 +671,9 @@
     },
     {
       "name": "日本放送協会",
-      "nickname": "NHK-FM(福島)",
+      "nicknames": [
+        "NHK-FM(福島)"
+      ],
       "callsign": "JOFP-FM",
       "links": [
         {
@@ -894,7 +910,9 @@
     },
     {
       "name": "ラジオ福島",
-      "nickname": "ラジオ福島",
+      "nicknames": [
+        "ラジオ福島"
+      ],
       "abbreviations": [
         "rfc"
       ],
@@ -1039,7 +1057,9 @@
     },
     {
       "name": "エフエム福島",
-      "nickname": "ふくしまFM",
+      "nicknames": [
+        "ふくしまFM"
+      ],
       "callsign": "JOTV-FM",
       "links": [
         {
@@ -1120,7 +1140,9 @@
     },
     {
       "name": "日本放送協会",
-      "nickname": "NHK-FM(水戸)",
+      "nicknames": [
+        "NHK-FM(水戸)"
+      ],
       "callsign": "JOEP-FM",
       "links": [
         {
@@ -1188,7 +1210,9 @@
     },
     {
       "name": "茨城放送",
-      "nickname": "LuckyFM 茨城放送",
+      "nicknames": [
+        "LuckyFM 茨城放送"
+      ],
       "callsign": "JOYF,JOYL",
       "links": [
         {
@@ -1246,7 +1270,9 @@
     },
     {
       "name": "日本放送協会",
-      "nickname": "NHK-FM(宇都宮)",
+      "nicknames": [
+        "NHK-FM(宇都宮)"
+      ],
       "callsign": "JOBP-FM",
       "links": [
         {
@@ -1340,7 +1366,9 @@
     },
     {
       "name": "栃木放送",
-      "nickname": "栃木放送",
+      "nicknames": [
+        "栃木放送"
+      ],
       "callsign": "JOXF",
       "links": [
         {
@@ -1426,7 +1454,9 @@
     },
     {
       "name": "エフエム栃木",
-      "nickname": "RADIO BERRY",
+      "nicknames": [
+        "RADIO BERRY"
+      ],
       "abbreviations": [
         "RADIO BERRY",
         "RB"
@@ -1511,7 +1541,9 @@
     },
     {
       "name": "日本放送協会",
-      "nickname": "NHK-FM(前橋)",
+      "nicknames": [
+        "NHK-FM(前橋)"
+      ],
       "callsign": "JOTP-FM",
       "links": [
         {
@@ -1634,7 +1666,9 @@
       "abbreviations": [
         "FMG"
       ],
-      "nickname": "FMぐんま",
+      "nicknames": [
+        "FMぐんま"
+      ],
       "callsign": "JORU-FM",
       "links": [
         {
@@ -1767,7 +1801,9 @@
     },
     {
       "name": "日本放送協会",
-      "nickname": "NHK-FM(さいたま)",
+      "nicknames": [
+        "NHK-FM(さいたま)"
+      ],
       "callsign": "JOLP-FM",
       "links": [
         {
@@ -1809,7 +1845,9 @@
     },
     {
       "name": "エフエムナックファイブ",
-      "nickname": "NACK5",
+      "nicknames": [
+        "NACK5"
+      ],
       "callsign": "JODV-FM",
       "links": [
         {
@@ -1851,7 +1889,9 @@
     },
     {
       "name": "日本放送協会",
-      "nickname": "NHK-FM(千葉)",
+      "nicknames": [
+        "NHK-FM(千葉)"
+      ],
       "callsign": "JOMP-FM",
       "links": [
         {
@@ -1932,7 +1972,9 @@
     },
     {
       "name": "ベイエフエム",
-      "nickname": "bayfm",
+      "nicknames": [
+        "bayfm"
+      ],
       "callsign": "JOGV-FM",
       "links": [
         {
@@ -2013,7 +2055,9 @@
     },
     {
       "name": "日本放送協会",
-      "nickname": "NHK-FM(東京)",
+      "nicknames": [
+        "NHK-FM(東京)"
+      ],
       "callsign": "JOAK-FM",
       "links": [
         {
@@ -2114,7 +2158,9 @@
         "NHK第1",
         "R1"
       ],
-      "nickname": "NHKラジオ第1放送",
+      "nicknames": [
+        "NHKラジオ第1放送"
+      ],
       "callsign": "JOAK",
       "links": [
         {
@@ -2163,7 +2209,9 @@
         "NHK第2",
         "R2"
       ],
-      "nickname": "NHKラジオ第2放送",
+      "nicknames": [
+        "NHKラジオ第2放送"
+      ],
       "callsign": "JOAB",
       "links": [
         {
@@ -2210,7 +2258,9 @@
       "abbreviations": [
         "TFM"
       ],
-      "nickname": "TOKYO FM",
+      "nicknames": [
+        "TOKYO FM"
+      ],
       "callsign": "JOAU-FM",
       "links": [
         {
@@ -2323,7 +2373,9 @@
     },
     {
       "name": "J-WAVE",
-      "nickname": "J-WAVE",
+      "nicknames": [
+        "J-WAVE"
+      ],
       "callsign": "JOAV-FM",
       "links": [
         {
@@ -2379,7 +2431,9 @@
     },
     {
       "name": "InterFM897",
-      "nickname": "interfm",
+      "nicknames": [
+        "interfm"
+      ],
       "callsign": "JODW-FM",
       "attributes": [
         "foreignLanguage"
@@ -2428,7 +2482,9 @@
       "abbreviations": [
         "TBSラジオ"
       ],
-      "nickname": "TBSラジオ",
+      "nicknames": [
+        "TBSラジオ"
+      ],
       "callsign": "JOKR",
       "links": [
         {
@@ -2463,7 +2519,9 @@
       "abbreviations": [
         "QR"
       ],
-      "nickname": "文化放送",
+      "nicknames": [
+        "文化放送"
+      ],
       "callsign": "JOQR",
       "links": [
         {
@@ -2494,7 +2552,9 @@
     },
     {
       "name": "ニッポン放送",
-      "nickname": "ニッポン放送",
+      "nicknames": [
+        "ニッポン放送"
+      ],
       "callsign": "JOLF",
       "links": [
         {
@@ -2525,7 +2585,9 @@
     },
     {
       "name": "日本放送協会",
-      "nickname": "NHK-FM(横浜)",
+      "nicknames": [
+        "NHK-FM(横浜)"
+      ],
       "callsign": "JOGP-FM",
       "links": [
         {
@@ -2567,7 +2629,10 @@
     },
     {
       "name": "横浜エフエム放送",
-      "nickname": "Fm yokohama 84.7（FMヨコハマ）",
+      "nicknames": [
+        "Fm yokohama 84.7",
+        "FMヨコハマ"
+      ],
       "abbreviations": [
         "YFM"
       ],
@@ -2626,7 +2691,9 @@
     },
     {
       "name": "アール・エフ・ラジオ日本",
-      "nickname": "ラジオ日本",
+      "nicknames": [
+        "ラジオ日本"
+      ],
       "abbreviations": [
         "RF"
       ],
@@ -2659,7 +2726,9 @@
     },
     {
       "name": "日本放送協会",
-      "nickname": "NHK-FM(甲府)",
+      "nicknames": [
+        "NHK-FM(甲府)"
+      ],
       "callsign": "JOKG-FM",
       "links": [
         {
@@ -2714,7 +2783,9 @@
     },
     {
       "name": "山梨放送",
-      "nickname": "YBSラジオ",
+      "nicknames": [
+        "YBSラジオ"
+      ],
       "callsign": "JOJF",
       "links": [
         {
@@ -2772,7 +2843,9 @@
     },
     {
       "name": "エフエム富士",
-      "nickname": "FM FUJI",
+      "nicknames": [
+        "FM FUJI"
+      ],
       "abbreviations": [
         "FMF"
       ],

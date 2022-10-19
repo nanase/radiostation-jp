@@ -59,7 +59,7 @@ async function checkRadioSpec(data) {
       .properties.addresses.additionalProperties.properties.address.properties.prefecture.enum;
 
   for (const radioStation of data.radioStations) {
-    console.info(`${radioStation.nickname}`);
+    console.info(`${radioStation.nicknames[0]}`);
 
     for (const station of radioStation.stations) {
       const lisenceUrl = station.citations.find(uri => uri.startsWith('https://www.tele.soumu.go.jp/musen'));
@@ -67,13 +67,13 @@ async function checkRadioSpec(data) {
 
       // 出典の項目に無線局免許状のURLが存在しない
       if (!lisenceUrl) {
-        warn(`${radioStation.nickname}/${station.addressId} has not lisence URL.`);
+        warn(`${radioStation.nicknames[0]}/${station.addressId} has not lisence URL.`);
         continue;
       }
 
       // 送信局のアドレスが定義されてない
       if (!address) {
-        warn(`${radioStation.nickname}/${station.addressId} is used, but not defined.`);
+        warn(`${radioStation.nicknames[0]}/${station.addressId} is used, but not defined.`);
         continue;
       }
 
@@ -107,7 +107,7 @@ async function checkRadioSpec(data) {
       //   - コミュニティ放送、外国語放送のフラグミス
       //   - 免許更新、もしくは廃局
       if (!fetchedLicenses.musen) {
-        warn(`${radioStation.nickname}/${station.addressId}: spec is not found. ${url}`);
+        warn(`${radioStation.nicknames[0]}/${station.addressId}: spec is not found. ${url}`);
         continue;
       }
 
@@ -118,7 +118,7 @@ async function checkRadioSpec(data) {
 
       // 免許状に記載の住所と一致する送信局が存在しない
       if (licenses.length === 0) {
-        warn(`${radioStation.nickname}/${station.addressId}: spec is not found. wrong address?: local=${locationCity} ${url}`);
+        warn(`${radioStation.nicknames[0]}/${station.addressId}: spec is not found. wrong address?: local=${locationCity} ${url}`);
         continue;
       }
 
@@ -129,15 +129,15 @@ async function checkRadioSpec(data) {
         const spec = specs[0];
 
         if (spec.freq !== station.frequency) {
-          warn(`${radioStation.nickname}/${station.addressId}: mismatched frequency: local=${station.frequency / 1e6}, spec=${specspec.freq / 1e6} ${url}`);
+          warn(`${radioStation.nicknames[0]}/${station.addressId}: mismatched frequency: local=${station.frequency / 1e6}, spec=${specspec.freq / 1e6} ${url}`);
         }
 
         if (spec.tpo !== station.tpo) {
-          warn(`${radioStation.nickname}/${station.addressId}: mismatched TPO: local=${station.tpo}, spec=${spec.tpo} ${url}`);
+          warn(`${radioStation.nicknames[0]}/${station.addressId}: mismatched TPO: local=${station.tpo}, spec=${spec.tpo} ${url}`);
         }
 
         if (spec.erp !== station.erp) {
-          warn(`${radioStation.nickname}/${station.addressId}: mismatched ERP: local=${station.erp}, spec=${spec.erp} ${url}`);
+          warn(`${radioStation.nicknames[0]}/${station.addressId}: mismatched ERP: local=${station.erp}, spec=${spec.erp} ${url}`);
         }
       }
     }
