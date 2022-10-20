@@ -3,6 +3,659 @@
     {
       "name": "日本放送協会",
       "nicknames": [
+        "NHK-FM(盛岡)"
+      ],
+      "callsign": "JOQG-FM",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.nhk.or.jp/morioka/"
+        }
+      ],
+      "studio": {
+        "addressId": "iwate_nhk"
+      },
+      "stations": [
+        {
+          "type": "primary",
+          "addressId": "iwate_morioka",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 83.1e6,
+          "tpo": 1000,
+          "erp": 4500,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010836&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_kamaishi",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 85.1e6,
+          "tpo": 100,
+          "erp": 560,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010842&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_kamaishisuzuko",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 81.4e6,
+          "tpo": 10,
+          "erp": 11.5,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000013916&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_ninohe_nhk",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.9e6,
+          "tpo": 100,
+          "erp": 170,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010837&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_miyako",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 83.5e6,
+          "tpo": 100,
+          "erp": 85,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010843&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_rikuchukawai",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 88.3e6,
+          "tpo": 10,
+          "erp": 14,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000434706&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_noda",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 85.5e6,
+          "tpo": 100,
+          "erp": 185,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010839&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_iwaizumi",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.3e6,
+          "tpo": 30,
+          "erp": 31,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010861&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_tohno",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.5e6,
+          "tpo": 10,
+          "erp": 20,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000011028&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_ohtsuchi",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 83.6e6,
+          "tpo": 10,
+          "erp": 16,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010921&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_ohfunato",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.3e6,
+          "tpo": 10,
+          "erp": 10,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010840&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_rikuzentakata",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 83.5e6,
+          "tpo": 10,
+          "erp": 32,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010841&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_ichinoseki",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 83.8e6,
+          "tpo": 10,
+          "erp": 17.5,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010838&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_murone",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 81.6e6,
+          "tpo": 10,
+          "erp": 28,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010860&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_iwatekawasaki",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.8e6,
+          "tpo": 3,
+          "erp": 7.9,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000976599&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_yamada",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.0e6,
+          "tpo": 10,
+          "erp": 10.5,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010844&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_fudaitanohata",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 86.5e6,
+          "tpo": 10,
+          "erp": 9.8,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000011127&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_kuzumaki",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 89.9e6,
+          "tpo": 10,
+          "erp": 13.5,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000011062&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_taneichi",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 89.9e6,
+          "tpo": 10,
+          "erp": 22,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000010983&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_yuda",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 83.6e6,
+          "tpo": 3,
+          "erp": 3.1,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000011812&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_sawauchi",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 84.5e6,
+          "tpo": 10,
+          "erp": 15.5,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000011131&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_nishinematsuo",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 87.6e6,
+          "tpo": 1,
+          "erp": 1.7,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000011316&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_ashirotayama",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 89.5e6,
+          "tpo": 3,
+          "erp": 3.3,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000011907&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "日本放送協会",
+      "nicknames": [
+        "NHKラジオ第1放送(盛岡)"
+      ],
+      "callsign": "JOQG",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.nhk.or.jp/morioka/"
+        }
+      ],
+      "studio": {
+        "addressId": "iwate_nhk"
+      },
+      "stations": [
+        {
+          "type": "relay",
+          "addressId": "iwate_iwaizumi",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 88.3e6,
+          "tpo": 10,
+          "erp": 10.5,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001226271&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IBC岩手放送",
+      "nicknames": [
+        "IBCラジオ"
+      ],
+      "callsign": "JODF",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.ibc.co.jp/"
+        }
+      ],
+      "studio": {
+        "addressId": "iwate_ibc"
+      },
+      "stations": [
+        {
+          "type": "relay",
+          "addressId": "iwate_morioka",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 90.6e6,
+          "tpo": 1000,
+          "erp": 3900,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001207099&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_yamada",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 76.7e6,
+          "tpo": 10,
+          "erp": 12.5,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001181607&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_iwaizumi",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 80.3e6,
+          "tpo": 20,
+          "erp": 100,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001186036&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_ichinoseki",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 85.5e6,
+          "tpo": 10,
+          "erp": 14,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001191211&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_ninohe",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 80.5e6,
+          "tpo": 100,
+          "erp": 130,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001207100&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_ohtsuchi",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 80.5e6,
+          "tpo": 20,
+          "erp": 100,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001207101&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_tohno",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 87.8e6,
+          "tpo": 20,
+          "erp": 21,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001219553&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_murone",
+          "attributes": [
+            "fm",
+            "simulcast"
+          ],
+          "frequency": 86.4e6,
+          "tpo": 10,
+          "erp": 30,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001219552&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "エフエム岩手",
+      "nicknames": [
+        "エフエム岩手"
+      ],
+      "callsign": "JOQU-FM",
+      "links": [
+        {
+          "type": "official",
+          "uri": "https://www.fmii.co.jp/"
+        }
+      ],
+      "studio": {
+        "addressId": "iwate_fmiwate"
+      },
+      "stations": [
+        {
+          "type": "primary",
+          "addressId": "iwate_morioka",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 76.1e6,
+          "tpo": 1000,
+          "erp": 4700,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000013135&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_kamaishi",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 79.2e6,
+          "tpo": 200,
+          "erp": 500,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000013136&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_miyako",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 89.3e6,
+          "tpo": 100,
+          "erp": 81,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000013137&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_ninohe",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 82.2e6,
+          "tpo": 100,
+          "erp": 170,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000013138&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_ohfunato",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 79.7e6,
+          "tpo": 10,
+          "erp": 11.5,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000013139&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_rikuzentakata",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 85.9e6,
+          "tpo": 10,
+          "erp": 33,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000013140&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_ichinoseki",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 80.3e6,
+          "tpo": 10,
+          "erp": 17,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000013141&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_tohno",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 80.7e6,
+          "tpo": 20,
+          "erp": 20,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000013142&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_noda",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 77.0e6,
+          "tpo": 100,
+          "erp": 185,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0000013143&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_iwaizumi",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 78.3e6,
+          "tpo": 30,
+          "erp": 31,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001175392&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_yamada",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 82.0e6,
+          "tpo": 10,
+          "erp": 12.5,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001181749&DD=1&styleNumber=01"
+          ]
+        },
+        {
+          "type": "relay",
+          "addressId": "iwate_ohtsuchi",
+          "attributes": [
+            "fm"
+          ],
+          "frequency": 78.4e6,
+          "tpo": 20,
+          "erp": 100,
+          "citations": [
+            "https://www.tele.soumu.go.jp/musen/SearchServlet?pageID=4&IT=I&DFCD=0001207102&DD=1&styleNumber=01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "日本放送協会",
+      "nicknames": [
         "NHK-FM(仙台)"
       ],
       "callsign": "JOHK-FM",
@@ -3101,6 +3754,330 @@
     }
   ],
   "addresses": {
+    "iwate_nhk": {
+      "name": "NHK盛岡放送局",
+      "address": {
+        "prefecture": "岩手県",
+        "city": "盛岡市",
+        "street": "上田4丁目1-3"
+      },
+      "coordinates": {
+        "lat": 39.719848,
+        "lng": 141.138156
+      }
+    },
+    "iwate_ibc": {
+      "name": "IBC岩手放送",
+      "address": {
+        "prefecture": "岩手県",
+        "city": "盛岡市",
+        "street": "志家町6-1"
+      },
+      "coordinates": {
+        "lat": 39.698583,
+        "lng": 141.161611
+      }
+    },
+    "iwate_fmiwate": {
+      "name": "エフエム岩手",
+      "address": {
+        "prefecture": "岩手県",
+        "city": "盛岡市",
+        "street": "内丸2-10"
+      },
+      "coordinates": {
+        "lat": 39.701290,
+        "lng": 141.153979
+      }
+    },
+    "iwate_morioka": {
+      "name": "盛岡送信所",
+      "address": {
+        "prefecture": "岩手県",
+        "city": "紫波郡紫波町",
+        "street": "土館字馬の子"
+      },
+      "coordinates": {
+        "lat": 39.537093,
+        "lng": 141.082680
+      }
+    },
+    "iwate_kamaishi": {
+      "name": "釜石中継局",
+      "address": {
+        "prefecture": "岩手県",
+        "city": "気仙郡住田町",
+        "street": "上有住字土倉"
+      },
+      "coordinates": {
+        "lat": 39.245791,
+        "lng": 141.705655
+      }
+    },
+    "iwate_kamaishisuzuko": {
+      "name": "釜石鈴子中継局",
+      "address": {
+        "prefecture": "岩手県",
+        "city": "釜石市",
+        "street": "釜石第14地割"
+      },
+      "coordinates": {
+        "lat": 39.257254,
+        "lng": 141.867516
+      }
+    },
+    "iwate_ninohe": {
+      "name": "二戸中継局",
+      "address": {
+        "prefecture": "岩手県",
+        "city": "二戸市",
+        "street": "福岡字折爪"
+      },
+      "coordinates": {
+        "lat": 40.268292,
+        "lng": 141.374709
+      }
+    },
+    "iwate_ninohe_nhk": {
+      "name": "NHK二戸中継局",
+      "address": {
+        "prefecture": "岩手県",
+        "city": "九戸郡九戸村",
+        "street": "江刺家第16地割"
+      },
+      "coordinates": {
+        "lat": 40.268873,
+        "lng": 141.375015
+      }
+    },
+    "iwate_miyako": {
+      "name": "宮古中継局",
+      "address": {
+        "prefecture": "岩手県",
+        "city": "宮古市",
+        "street": "重茂第30地割字追切"
+      },
+      "coordinates": {
+        "lat": 39.620177,
+        "lng": 142.004606
+      }
+    },
+    "iwate_rikuchukawai": {
+      "name": "宮古中継局",
+      "address": {
+        "prefecture": "岩手県",
+        "city": "宮古市",
+        "street": "川井"
+      },
+      "coordinates": {
+        "lat": 39.601659,
+        "lng": 141.666146
+      }
+    },
+    "iwate_noda": {
+      "name": "野田中継局",
+      "address": {
+        "prefecture": "岩手県",
+        "city": "九戸郡野田村",
+        "street": "字和佐羅比山国有林"
+      },
+      "coordinates": {
+        "lat": 40.049489,
+        "lng": 141.758331
+      }
+    },
+    "iwate_iwaizumi": {
+      "name": "岩泉中継局",
+      "address": {
+        "prefecture": "岩手県",
+        "city": "下閉伊郡岩泉町",
+        "street": "岩泉字穴の沢"
+      },
+      "coordinates": {
+        "lat": 39.814542,
+        "lng": 141.831377
+      }
+    },
+    "iwate_tohno": {
+      "name": "遠野中継局",
+      "address": {
+        "prefecture": "岩手県",
+        "city": "遠野市",
+        "street": "松崎町駒木第7地割字中野"
+      },
+      "coordinates": {
+        "lat": 39.371508,
+        "lng": 141.581246
+      }
+    },
+    "iwate_ohtsuchi": {
+      "name": "大槌中継局",
+      "address": {
+        "prefecture": "岩手県",
+        "city": "上閉伊郡大槌町",
+        "street": "大槌"
+      },
+      "coordinates": {
+        "lat": 39.361483,
+        "lng": 141.928897
+      }
+    },
+    "iwate_ohfunato": {
+      "name": "大船渡中継局",
+      "address": {
+        "prefecture": "岩手県",
+        "city": "大船渡市",
+        "street": "猪川町字今出32-3"
+      },
+      "coordinates": {
+        "lat": 39.107355,
+        "lng": 141.753763
+      }
+    },
+    "iwate_rikuzentakata": {
+      "name": "陸前高田中継局",
+      "address": {
+        "prefecture": "岩手県",
+        "city": "陸前高田市",
+        "street": "広田町字大陽"
+      },
+      "coordinates": {
+        "lat": 38.981431,
+        "lng": 141.677590
+      }
+    },
+    "iwate_ichinoseki": {
+      "name": "一関中継局",
+      "address": {
+        "prefecture": "岩手県",
+        "city": "西磐井郡平泉町",
+        "street": "長島字深山"
+      },
+      "coordinates": {
+        "lat": 39.011859,
+        "lng": 141.183712
+      }
+    },
+    "iwate_murone": {
+      "name": "室根中継局",
+      "address": {
+        "prefecture": "岩手県",
+        "city": "一関市",
+        "street": "千厩町奥玉字飛ヶ岳"
+      },
+      "coordinates": {
+        "lat": 38.972585,
+        "lng": 141.444525
+      }
+    },
+    "iwate_iwatekawasaki": {
+      "name": "岩手川崎中継局",
+      "address": {
+        "prefecture": "岩手県",
+        "city": "一関市",
+        "street": "川崎町薄衣字高舘"
+      },
+      "coordinates": {
+        "lat": 38.892693,
+        "lng": 141.271451
+      }
+    },
+    "iwate_yamada": {
+      "name": "山田中継局",
+      "address": {
+        "prefecture": "岩手県",
+        "city": "下閉伊郡山田町",
+        "street": "船越字半崎国有林30林斑に小斑内"
+      },
+      "coordinates": {
+        "lat": 39.414471,
+        "lng": 141.989897
+      }
+    },
+    "iwate_fudaitanohata": {
+      "name": "普代田野畑中継局",
+      "address": {
+        "prefecture": "岩手県",
+        "city": "下閉伊郡普代村",
+        "street": "第11地割"
+      },
+      "coordinates": {
+        "lat": 39.962077,
+        "lng": 141.876222
+      }
+    },
+    "iwate_kuzumaki": {
+      "name": "葛巻中継局",
+      "address": {
+        "prefecture": "岩手県",
+        "city": "岩手郡葛巻町",
+        "street": "葛巻字大明神"
+      },
+      "coordinates": {
+        "lat": 40.044442,
+        "lng": 141.446041
+      }
+    },
+    "iwate_taneichi": {
+      "name": "種市FM中継局",
+      "address": {
+        "prefecture": "岩手県",
+        "city": "九戸郡洋野町",
+        "street": "種市第1地割字八木南町"
+      },
+      "coordinates": {
+        "lat": 40.343377,
+        "lng": 141.763515
+      }
+    },
+    "iwate_yuda": {
+      "name": "湯田中継局",
+      "address": {
+        "prefecture": "岩手県",
+        "city": "和賀郡西和賀町",
+        "street": "川尻"
+      },
+      "coordinates": {
+        "lat": 39.304318,
+        "lng": 140.788851
+      }
+    },
+    "iwate_sawauchi": {
+      "name": "沢内中継局",
+      "address": {
+        "prefecture": "岩手県",
+        "city": "和賀郡西和賀町",
+        "street": "沢内字太田"
+      },
+      "coordinates": {
+        "lat": 39.428308,
+        "lng": 140.739773
+      }
+    },
+    "iwate_nishinematsuo": {
+      "name": "西根松尾中継局",
+      "address": {
+        "prefecture": "岩手県",
+        "city": "八幡平市",
+        "street": "大更第38地割字白屋"
+      },
+      "coordinates": {
+        "lat": 39.940481,
+        "lng": 141.113816
+      }
+    },
+    "iwate_ashirotayama": {
+      "name": "安代田山中継局",
+      "address": {
+        "prefecture": "岩手県",
+        "city": "八幡平市",
+        "street": "田山"
+      },
+      "coordinates": {
+        "lat": 40.131007,
+        "lng": 140.938731
+      }
+    },
     "miyagi_nhk": {
       "name": "NHK仙台放送局",
       "address": {
